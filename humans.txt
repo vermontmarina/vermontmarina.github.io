@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Jordan Lafalnd> -- <Designer> -- <twitter>
+
+# THANKS
+
+    <Kate and Laurie>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    bootstrap, paralax.js
