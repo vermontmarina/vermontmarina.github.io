@@ -137,6 +137,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	max-width: 40%;
 }
 
+
 .socialmedia{
   position:relative;
 	width: 50%;
@@ -400,6 +401,17 @@ li.active{
 
 .lantern1{
 
+}
+
+#arrow-button {
+  background: black;
+  border-radius: 50%;
+  height: 40px;
+  position: fixed;
+  left: 50px;
+  top: 500px;
+  width: 40px;
+  z-index: 1;
 }
 .clouds{
 

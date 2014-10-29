@@ -70,6 +70,8 @@
       <div id="prlx_lyr_6"class="container fish">
         <img src="images/logo/fish.png">
       </div>
+<!-- Scroll button-->
+      <div id="arrow-button"></div>
 <!-- Dragon in water -->
       <div id="prlx_lyr_7"class="container dragon">
         <img src="images/colordragon2.png">
@@ -649,6 +651,26 @@ s
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+    </script>
+<!-- Scroll button -->
+    <script>
+        $( document ).ready(function() {
+      var bodyWidth = $( "body" ).width(), // whole width of the body
+          wWidth = $( window ).width(),// width of the viewport
+          arrowButton = $( "#arrow-button" ),
+          pos = 1000;// start position
+
+      arrowButton.click(function() {
+        if ( pos <= bodyWidth-wWidth ) {
+          pos += wWidth;// after click add to start position width of the viewport
+        } else {
+          pos = 0; 
+        }
+
+        $('body').animate( { scrollLeft: pos }, 1500);
+      });
+
+    });//end ready
     </script>
 <!-- Preloader -->
     <script type="text/javascript">
