@@ -20,62 +20,8 @@
     z-index:99; /* makes sure it stays on top */
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-/* Styles */
-  
-}
- 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width : 321px) {
-/* Styles */
-}
- 
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 320px) {
-/* Styles */
-}
- 
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
- 
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
- 
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
- 
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
- 
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
- 
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+h3{
+  font-family: 'Exo 2', sans-serif;
 }
 
 
@@ -305,10 +251,10 @@ li.active{
 	
 }
 .seafood-logo{
-  position:;
+  position: absolute;
 	padding-left: 35%;
 	padding-top: 10%;
-
+  z-index: 9;
 }
 
 .dragon{
@@ -412,13 +358,18 @@ li.active{
   top: 500px;
   width: 40px;
   z-index: 1;
+  text-decoration: none;
+}
+
+.arrowtext{
+  color: #7FFF00;
 }
 .clouds{
 
 position: absolute;
 left: 0;
 top: -50px;
-z-index: 50;
+z-index: ;
 width: 960px;
 height: 300;
 -webkit-animation: flight 150s infinite linear;
