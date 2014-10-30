@@ -1,0 +1,462 @@
+
+  body {
+  margin: 0px; background: url('') fixed ;
+  position: relative; 
+  background-color: #1E0208;
+  display:center;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+h3{
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+
+.wrapper{
+  height:800px;
+  width:2400px;
+}
+
+#status {
+    width:230px;
+    height:230px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url("../images/dragonwheel.gif"); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    z-index: 99;
+}
+
+
+  #prlx_lyr_1{
+    position:fixed;
+    background: url("../images/marinalayerpurple1.png") no-repeat -100px 15px;
+    width: 3400px;
+    height: 800px ;
+    overflow: ;
+    min-height: ;
+    margin-left: ;
+    max-height:;
+    z-index: -3;
+  }
+
+  #prlx_lyr_2{
+    position:fixed;
+    background: url('') no-repeat 100px 15px;
+    width: 100%;
+    height: 90%;
+  }
+
+  #content_layer{
+    position: absolute;
+    width: 2400px;
+    height:;
+    min-height: 700px;
+    max-height: 700px;
+    z-index: -99;
+  }
+
+  .container{
+    position: absolute ;
+    width:100%;
+   
+  }
+
+.logo{
+	max-width: 40%;
+}
+
+
+.socialmedia{
+  position:relative;
+	width: 50%;
+	top: 670px;
+	position-bottom: 3%;
+	margin-left: ;
+  min-width:400px;
+	
+}
+
+.icon{
+	background-color: transparent;
+	border: none;
+}
+
+.mediaicon{
+	max-width: 50%;
+	min-width: 30px;
+	opacity: ;
+
+}
+
+.dragonlogo{
+	position:relative;
+	right: ;
+	max-height: 50px;
+  padding: none;
+  margin:none;
+
+}
+
+.modal-title {
+	padding-right: 40%;
+}
+
+.modal-header {
+	padding: 5px;
+
+}
+
+.pages{
+  position: relative;
+	top: 663px;
+	width: 30%;
+	margin-left:50%;
+  min-width: 300px;
+}
+
+.menubutton{
+  background-color:#FF56DE ;
+  border-color:#ED3BFF;
+  border-radius: 10px;
+ 
+}
+.menu-tab{
+  background-color:#71FF77 ;
+
+}
+
+.menu-modal-background{
+  background-color: #7FE7FF;
+
+}
+.menubutton:hover{
+
+  background-color:#ED3BFF;
+   color: #003C51;
+
+}
+
+.menu-close-button{
+  background-color: #F09AFF;
+}
+
+.menu-close-button:hover{
+  background-color: #B424FF;
+}
+.infobutton{
+  background-color: #51FF66;
+  border-color:#98F100;
+  color: #003C51;
+}
+
+.infobutton:hover{
+
+  background-color:#98F100;
+
+}
+.info-modal-background{
+  background-color: #E69FFF;
+}
+
+li.active{
+  background-color: #FF76AF;
+}
+
+.calenderbutton{
+  background-color: #FFFB5F;
+  border-color:#FFF79F;
+  color: #003C51;
+}
+
+.calenderbutton:hover{
+
+  background-color:#FFF79F;
+
+}
+.google-calender{
+  max-height:80%;
+  width:100%;
+  min-height: 400px;
+}
+.calender-panel{
+  background-color: #FF76FB;
+}
+
+.calender-modal-background{
+  background-color: #FFFB5F;
+}
+
+.music-panel{
+  background-color: #97FF7A;
+}
+
+
+.trail-modal-background{
+  background-color: #CCFFDF;
+
+}
+
+.trail-panel-background{
+  background-color: #B6FFB6;
+
+}
+
+.kayak-modal-background{
+  background-color: #EED1FF;
+
+}
+.gallery-modal{
+  background-color: #FFC884;
+}
+.live-music-background{
+
+}
+
+.music-info-style{
+  background-color: #F89AFF;
+}
+
+.music-info-style2{
+  background-color: #84F2FF;
+}
+
+.music-one-background{
+  background-color: #9AE7FF;
+}
+
+
+
+
+.fish{
+	padding-top: 10%;
+	padding-left: 58%;
+	
+}
+.seafood-logo{
+  position: absolute;
+	padding-left: 35%;
+	padding-top: 10%;
+  z-index: 9;
+}
+
+.dragon{
+  position:absolute;
+	z-index: -5;
+	padding-left:80%;
+  top:500px;
+}
+.container{
+	padding-left: ;
+}
+
+.community-links a{
+  font-size: 1.5em;
+}
+.directions-map{
+  width: 100%;
+  min-height: 300px;
+  max-height:500px;
+}
+
+
+
+.you-tube-modal{
+  background-color: #FF6C5F;
+}
+.you-tube-player{
+  width:100%;
+  min-height: 300px;
+}
+
+
+.right-buttons{
+  position:relative;
+  top:620px;
+  padding-left:100px;
+  left:2000px;
+}
+
+.kayak-button{
+  position:relative;
+  bottom: 70px;
+  margin-left: 5px;
+
+}
+.gallery-button{
+  position:relative;
+  bottom: 60px;
+  height:100px;
+  margin-left:10px;
+}
+
+.trip-advisor-button{
+  position:relative;
+  bottom: 90px;
+  height:150px;
+  margin-right:-39px;
+}
+
+.trip-modal-body{
+  background-color: #8DFF91;
+}
+
+.trail-button{
+  position:relative;
+  bottom: 60px;
+  height:150px;
+  margin-left:10px;
+}
+.trail-modal-body{
+  background-image: url('../images/trail-modal-background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #EEE;
+}
+.trail-modal-body a{
+  color: #16EEFF;
+}
+
+
+
+
+.lantern-container{
+  position: relative;
+  left:2300px;
+  max-width: 620px;
+  top:360px;
+  margin-left: 0px;
+}
+
+.lantern1{
+
+}
+
+#arrow-button {
+  background: black;
+  border-radius: 50%;
+  height: 40px;
+  position: fixed;
+  left: 50px;
+  top: 500px;
+  width: 40px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.arrowtext{
+  color: #7FFF00;
+}
+.clouds{
+
+position: absolute;
+left: 0;
+top: -50px;
+z-index: ;
+width: 960px;
+height: 300;
+-webkit-animation: flight 150s infinite linear;
+  -moz-animation: flight 150s infinite linear;
+  animation: flight 150s infinite linear;
+
+}
+
+.cloud-1 {
+  position: absolute;
+  right: 80px;
+  top: 100px;
+  width: 469px;
+  height: 254px;
+  background: transparent url(../images/cloud-1.png) no-repeat left top;
+  z-index: -6;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: -140px;
+  top: ;
+  width: 557px;
+  height: 299px;
+  background: transparent url(../images/cloud-2.png) no-repeat left top;
+  z-index: -6;
+}
+.cloud-3 {
+  position: absolute;
+  right: -490px;
+  top: -60px;
+  width: 685px;
+  height: 390px;
+  background: transparent url(../images/cloud-3.png) no-repeat left top;
+  z-index: -6;
+  }
+
+  @-webkit-keyframes flight {
+
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+ 
+  100% {
+    -webkit-transform: translateX(100%);
+  }
+}
+@-moz-keyframes flight {
+ 
+  0% {
+    -moz-transform: translateX(0);
+  }
+
+  100% {
+    -moz-transform: translateX(100%);
+  }
+}
+@-o-keyframes flight {
+
+  0% {
+    -o-transform: translateX(0);
+  }
+
+  
+  100% {
+    -o-transform: translateX(100%);
+  }
+}
+@keyframes flight {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+
+/*div {
+  height: 3em;
+  transition: 1s;
+}
+
+div:hover {
+  height: 24em;
+}
