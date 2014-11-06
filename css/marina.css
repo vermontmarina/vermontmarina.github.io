@@ -448,7 +448,7 @@ height: 300;
   }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 780px) {
   html { }
   .background-image{
     position:relative;
@@ -535,6 +535,7 @@ height: 300;
       min-height: 700px;
       max-height: 700px;
       z-index: -99;
+}
 }
 
 
