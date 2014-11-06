@@ -24,8 +24,6 @@ h3{
   font-family: 'Exo 2', sans-serif;
 }
 
-
-
 .wrapper{
   height:800px;
   width:2400px;
@@ -450,6 +448,94 @@ height: 300;
   }
 }
 
+@media (max-width: 600px) {
+  html { }
+  .background-image{
+    position:relative;
+    z-index: -100;
+    width: 2000px;
+
+
+  }
+  .wrapper{
+  
+}
+  .lower-nav-mobile{
+    display: none;
+  }
+  .pages{
+    
+    position: relative;
+    top: 488px;
+    width: 30%;
+    margin-left: 63%;
+    min-width: 300px;
+    height:150px;
+    right:150px;
+  }
+  .seafood-logo{
+    height:90%;
+    width:90%;
+    position: relative;
+    
+    left:-130px;
+  }
+  .socialmedia{
+    top: 354px;
+  }
+  #prlx_lyr_1{
+    
+    top:;
+
+    background: url("../images/purple-mobile.png") no-repeat -199px -100px;
+
+  }
+
+
+
+.dragon {
+    position: absolute;
+    z-index: -5;
+    padding-left: 132%;
+    top: 318px;
+    }
+
+
+.lantern-container {
+    position: relative;
+    left: 1528px;
+    max-width: 620px;
+    top: 211px;
+    margin-left: 0px;
+    }
+
+.right-buttons{
+    position: relative;
+    top: 476px;
+    padding-left: 100px;
+    left: 1200px;
+}
+ #arrow-button {
+    background: black;
+    border-radius: 50%;
+    height: 40px;
+    position: fixed;
+    left: 50px;
+    top: 411px;
+    width: 40px;
+    z-index: 1;
+    text-decoration: none;
+    }
+
+
+    #content_layer {
+      position: absolute;
+      width: 1000px;
+      height: ;
+      min-height: 700px;
+      max-height: 700px;
+      z-index: -99;
+}
 
 
 /*div {
