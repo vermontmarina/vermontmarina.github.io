@@ -453,7 +453,7 @@ height: 300;
   }
 }
 
-@media (min-width: 400px) and (max-width: 780px) {
+/*@media (min-width: 400px) and (max-width: 780px) {
   html { }
   .background-image{
     position:relative;
