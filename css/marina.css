@@ -7,6 +7,8 @@
   display:center;
   background-size: 100%;
   overflow: hidden;
+  background-image: url('../images/backgorund3.png');
+  background-repeat: no-repeat;
 }
 
 /* Preloader */
@@ -123,12 +125,14 @@ h3{
 
 }
 
-.pages{
-  position: relative;
-	top: 663px;
-	width: 30%;
-	margin-left:50%;
-  min-width: 300px;
+
+
+.pages {
+position: relative;
+top: 333px;
+width: 30%;
+margin-left: 11%;
+min-width: 300px;
 }
 
 .menubutton{
@@ -289,7 +293,7 @@ li.active{
 .right-buttons{
   position:relative;
   top: 485px;
-  padding-left:100px;
+  /*padding-left:100px;*/
   left:;
 }
 
