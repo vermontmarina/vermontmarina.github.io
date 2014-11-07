@@ -1,24 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="height=device-height">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <title>The Marina - Brattleboro, VT Waterfront Dining</title>
-
-    <!-- Bootstrap -->
+    <meta name='description' content='Come in to The Marina, a fresh seafood restaurant with an extensive menu of American food. Enjoy waterfront dining and outdoor seating with an amazing sunset view and a casual dining atmosphere in Brattleboro, Vermont.' />
+    <meta name='keywords' content='Seafood, Restaurants, Waterfront Dining, Outdoor Dining, Vegetarian, Live Music, Family Dining, Take Out, Lunch, Brunch, Burgers, Bar, Local, Beer, Brattleboro, Vermont' />
+    <meta property='og:site_name' content='Home' />
+    <meta property='og:title' content='The Marina - Brattleboro, VT Waterfront Dining' />
+    <meta property='og:description' content='Come in to The Marina, a fresh seafood restaurant with an extensive menu of American food. Enjoy waterfront dining and outdoor seating with an amazing sunset view and a casual dining atmosphere in Brattleboro, Vermont.' />
+    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-     <link href="css/marina.css" rel="stylesheet">
+    <link href="css/marina.css" rel="stylesheet">
+    <script src="js/parallax.js"></script>
+    <script type="text/javascript">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        function parallax(){
+
+        var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+        var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
+        var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
+        var prlx_lyr_4 = document.getElementById('prlx_lyr_4');
+        var prlx_lyr_5 = document.getElementById('prlx_lyr_5');
+        var prlx_lyr_6 = document.getElementById('prlx_lyr_6');
+        var prlx_lyr_7 = document.getElementById('prlx_lyr_7');
+        
+      
+        prlx_lyr_1.style.left = -(window.pageXOffset/1.5)+'px';
+        prlx_lyr_2.style.left = -(window.pageXOffset/2.5)+'px';
+        prlx_lyr_3.style.left = -(window.pageXOffset/1.5)+'px';
+        prlx_lyr_4.style.left = -(window.pageXOffset/2)+'px';
+        prlx_lyr_5.style.left = -(window.pageXOffset/.65)+'px';
+        prlx_lyr_6.style.left = (window.pageXOffset/4)+'px';
+        prlx_lyr_7.style.left = (window.pageXOffset/2)+'px';
+        
+
+        }
+
+        window.addEventListener("scroll", parallax, false);
+
+    </script>
   </head>
-  <body>
-  
+  <body >
+<!-- Preloader -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+<!-- Main Container -->
+    <div class="container wrapper">  
+<!-- Background layer -->
+      <div id="content_layer"> 
+        <img id="doScroll" class="background-image" src="images/newblueskylayer6.jpg">
+      </div>
+<!-- Buliding layer -->
+      <div id="prlx_lyr_1">
+      </div>
+<!-- Logo Components -->
       <div id="prlx_lyr_3"class="container">
         <a href="marina.html">
           <img  class="center-block logo" src="images/logo/marinalogo.png">
@@ -30,7 +71,14 @@
       <div id="prlx_lyr_6"class="container fish">
         <img src="images/logo/fish.png">
       </div>
-       <div id="prlx_lyr_2" class="container">
+<!-- Scroll button-->
+      <div id="arrow-button"> <a class="arrowtext">&nbsp;Click &nbsp;Here</a></div>
+<!-- Dragon in water -->
+      <div id="prlx_lyr_7"class="container dragon">
+        <img src="images/colordragon2.png">
+      </div>
+<!-- Buttons: for modal -Calender -Menu- Info -->
+      <div id="prlx_lyr_2" class="container">
         <div class="btn-group btn-group-justified pages">
           <div class="btn-group">
             <button class="btn  calenderbutton" data-toggle="modal" data-target=".calender-modal">Calendar</button>
@@ -43,6 +91,7 @@
           </div>
         </div>
       </div>
+<!-- Social Media Buttons -->
       <div id="prlx_lyr_4" class="btn-group btn-group-justified socialmedia">
         <div class="btn-group">
           <button type="button" class="btn btn-default icon">
@@ -592,14 +641,94 @@
           </p> 
           <p class ="navbar-text pull-right lower-nav-mobile">The Marina &nbsp;&nbsp;802-257-7563
           </p>
-        </div>
-      </div
-
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    		</div>
+    	</div>
+<!-- Bottom of Container -->
+    </div>
+<!-- Javascript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Modal script to move between tabs -->
+    <script>  //menu modal
+                  $(function () {
+                    $('#myTab a:last').tab('show')
+                  })
+                  $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+          e.target // activated tab
+          e.relatedTarget // previous tab
+        })
+    </script>
     <script src="js/bootstrap.min.js"></script>
+<!--   <script src="marina.js" type="text/javascript"></script>  -->
+<!-- Script paralax.js -->
+    <script>
+      var scene = document.getElementById('scene');
+      var parallax = new Parallax(scene);      
+    </script>
+<!-- trip advisor logo-award in About panel in information-modal -->
+    <script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=881&amp;locationId=2259865&amp;lang=en_US&amp;year=2013">
+    </script>
+<!-- trip advisor map in modal -->
+    <script src="http://www.jscache.com/wejs?wtype=impnearbyrestnarrow&amp;uniq=323&amp;locationId=2259865&amp;lang=en_US&amp;border=true&amp;ltype=v"></script>
+<!-- mouse scroll scroll left -->
+    <script>
+          var mouseWheelEvt = function (e)
+    {
+        var event = e || window.event;
+        if (document.body.doScroll)
+            document.body.doScroll(event.wheelDelta>0?"left":"right");
+        else if ((event.wheelDelta || event.detail) > 0)
+            document.body.scrollLeft -= 10;
+        else
+            document.body.scrollLeft += 10;
+
+        return false;
+    }
+    if ("onmousewheel" in document.body)
+        document.body.onmousewheel = mouseWheelEvt;
+    else
+        document.body.addEventListener("DOMMouseScroll", mouseWheelEvt);
+    </script>
+<!-- google analytics  -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26075059-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+<!-- Scroll button -->
+    <script>
+        $( document ).ready(function() {
+      var bodyWidth = $( "body" ).width(), // whole width of the body
+          wWidth = $( window ).width(),// width of the viewport
+          arrowButton = $( "#arrow-button" ),
+          pos = 0;// start position
+
+      arrowButton.click(function() {
+        if ( pos <= bodyWidth-wWidth ) {
+          pos += wWidth+500;// after click add to start position width of the viewport
+        } else {
+          pos = 0; 
+        }
+
+        $('body').animate( { scrollLeft: pos }, 1500);
+      });
+
+    });//end ready
+    </script>
+<!-- Preloader -->
+    <script type="text/javascript">
+      //<![CDATA[
+          $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(350).css({'overflow':'visible'});
+        })
+      //]]>
+    </script>
   </body>
 </html>

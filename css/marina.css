@@ -2,7 +2,8 @@
   body {
   margin: 0px; background: url('') fixed ;
   position: relative; 
-  background-color: #1E0208;
+  /*background-color: #1E0208;*/
+  background-color: #99FFFF;
   display:center;
   background-size: 100%;
   overflow: hidden;
@@ -287,9 +288,9 @@ li.active{
 
 .right-buttons{
   position:relative;
-  top:620px;
+  top: 485px;
   padding-left:100px;
-  left:2000px;
+  left:;
 }
 
 .kayak-button{
