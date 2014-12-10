@@ -228,6 +228,14 @@ li.active{
   background-color: #97FF7A;
 }
 
+.music-right{
+	margin-right: 5%;
+
+}
+
+.music-left{
+	margin-left: 5%;
+}
 
 .trail-modal-background{
   background-color: #CCFFDF;
