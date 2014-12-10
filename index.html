@@ -64,7 +64,7 @@
         <div class="modal-content calender-modal-background">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <img class="dragonlogo center-block animated bounceInLeft" src="images/dragonblack.png" >
+            <img class="dragonlogo center-block animated flipInX" src="images/dragonblack.png" >
           </div>
           <div class="panel-group" id="accordion">
 <!-- calendar in calender-modal -->
@@ -153,11 +153,11 @@
             </ul>
             <div class="tab-content" style="max-height:500px;overflow-y:auto;"> 
               <div class="tab-pane active" id="page1"><img src="images/menu/page1.jpg" class="center-block" height="100%" width="100%"></div>
-              <div class="tab-pane" id="page2"><img src="images/menu/page2.jpg" class="center-block" height="100%" width="100%"></div>
-              <div class="tab-pane" id="page3"><img src="images/menu/page3.jpg" class="center-block" height="100%" width="100%"></div>
-              <div class="tab-pane" id="page4"><img src="images/menu/page4.jpg" class="center-block" height="100%" width="100%"></div>
-              <div class="tab-pane" id="page5"><img src="images/menu/page5.jpg" class="center-block" height="100%" width="100%"></div>
-              <div class="tab-pane" id="page6"><img src="images/menu/page6.jpg" class="center-block" height="100%" width="100%"></div>
+              <div class="tab-pane animated fadeInDown" id="page2"><img src="images/menu/page2.jpg" class="center-block" height="100%" width="100%"></div>
+              <div class="tab-pane animated fadeInDown" id="page3"><img src="images/menu/page3.jpg" class="center-block" height="100%" width="100%"></div>
+              <div class="tab-pane animated fadeInDown" id="page4"><img src="images/menu/page4.jpg" class="center-block" height="100%" width="100%"></div>
+              <div class="tab-pane animated fadeInDown" id="page5"><img src="images/menu/page5.jpg" class="center-block" height="100%" width="100%"></div>
+              <div class="tab-pane animated fadeInDown" id="page6"><img src="images/menu/page6.jpg" class="center-block" height="100%" width="100%"></div>
               <div class="tab-pane" id="page7">
                 <ul class="list-group text-center">
                   <li class="list-group-item list-group-item-info "><em class="pull-left">
@@ -346,7 +346,7 @@
                 </h4>
               </div>
               <div id="collapsetrailOne" class="panel-collapse collapse in">
-                <div class="panel-body text-center center-block trail-modal-background">
+                <div class="panel-body text-center center-block trail-modal-background animated fadeInDown">
                   <div><iframe width="500" height="400" frameborder="0" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&cp=42.871515~-72.565877&lvl=16&w=500&h=400&sty=h&typ=d&pp=west%20river%20trail%2C%20brattleboro%20vermont%2005301~~42.871515~-72.565877&ps=&dir=0&mkt=en-us&src=O365&form=BMEMJS"></iframe>
                   </div>
                   <h4>Local Hiking along the  <a href="http://westrivertrail.org/" target="_blank"> West River Trail</a></h4>
@@ -531,7 +531,7 @@
       </div>
 <!-- Scroll button-->
       <div id="arrow-button"> 
-        <a class="arrowtext">&nbsp;Click &nbsp;Here
+        <a class="arrowtext animate-btn">&nbsp;Click &nbsp;Here
           <img  class="fish-btn animate-me  box-a"src="images/logo/fish.png">
         </a>
       </div>
@@ -612,7 +612,7 @@
           </ul>
         </div>
       </div>
-      <a href="#" class="animate-click toggle-button menu-toggle">Click Here</a> 
+      <a href="#" class="animate-click toggle-button menu-toggle box-d">Click Here</a> 
       <nav class="menu-side">
          This is a Site Map:
          <a href="#" class="menu-toggle pull-right">close</a>
@@ -720,7 +720,7 @@
     </script>
     <script>
         $('.animate-btn').on('click', function() {
-            $('.box-d').addClass('animated hinge');
+            $('.box-d').addClass('animated wobble tada-btn');
 
         });
     </script>

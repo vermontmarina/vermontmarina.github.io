@@ -440,6 +440,13 @@ div.foodnetwork-button{
   color: #7FFF00;
 }
 
+.tada-btn{
+	color: #7FFF00;
+	animation-delay:.5s;
+	-webkit-animation-delay:.5s;
+
+}
+
 a img.fish-btn{
 width: 65px;
 position: relative;
@@ -480,6 +487,8 @@ z-index: -3;
 	height: 3.5em;
 	margin-top: -.5em;
 	margin-bottom: -1em;
+		animation-delay:.2s;
+	-webkit-animation-delay:.2s;
 
 }
 
