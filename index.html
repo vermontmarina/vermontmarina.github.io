@@ -15,8 +15,8 @@
     <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/dragon.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -52,21 +52,19 @@
   <body id="doScroll" class="menu">
 <!-- Preloader -->
     <div id="preloader">
+      <h1 class="text-center loader-txt"> Welcome to The Marina: </h1>
+      <h2 class="text-center animated fadeIn">  ...Loading </h2>
+
       <div id="status">&nbsp;</div>
-      <img src="images/moving-dragon/circlebwdragon.png" class="gwd-img-1l93 gwd-img-hszd gwd-gen-f391gwdanimation">
-      <img src="images/moving-dragon/circlebwdragon.png" class="gwd-img-1l93 gwd-img-ekz0 gwd-gen-c7drgwdanimation">
-      <img src="images/moving-dragon/headdragonbw.png" class="gwd-img-pq94 gwd-gen-neuvgwdanimation">
-      <img src="images/moving-dragon/taildragon.png" class="gwd-img-nbji gwd-gen-qrpxgwdanimation">
-      <div class="gwd-div-chse"></div>
     </div>
-<!--  <modals> -->
+<!-- <modals> -->
 <!--calendar modal w google calendar embed -->
     <div class="modal fade calender-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content calender-modal-background">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <img class="dragonlogo center-block" src="images/dragonblack.png" >
+            <img class="dragonlogo center-block animated bounceInLeft" src="images/dragonblack.png" >
           </div>
           <div class="panel-group" id="accordion">
 <!-- calendar in calender-modal -->
@@ -99,7 +97,7 @@
                     <div class="col-sm-6 col-md-4 music-info-style2 pull-left">
                       <div class="thumbnail">
                         <img src="images/Hobbs.jpg" alt="...">
-                        <div class="caption tect-center music-info-style">
+                        <div class=" animated flash caption tect-center music-info-style">
                           <h3>EVERY <u>SUNDAY</u> BRUNCH</h3>
                           <h4>
                             <p>The Marina presents guitarist Draa Hobbs performing a variety of standards and jazz classics.<br><br>
@@ -115,7 +113,7 @@
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 music-info-style pull-right">
-                      <div class="thumbnail">
+                      <div class="thumbnail animated tada">
                         <img src="images/openmic.jpg" alt="...">
                         <div class="caption text-center music-one-background">
                           <h3>OPEN MIC EVERY <u>THURSDAY</u> 7-10pm with KEVIN PARRY</h3>
@@ -140,7 +138,7 @@
         <div class="modal-content menu-modal-background">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <img class="dragonlogo center-block" src="images/dragonblack.png">
+            <img class="dragonlogo center-block animated fadeInLeft" src="images/dragonblack.png">
             <h4 class="modal-title " id="menuLabel"></h4>
           </div>
           <div class="modal-body">
@@ -212,7 +210,7 @@
         <div class="modal-content info-modal-background">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <img class="dragonlogo center-block" src="images/dragonblack.png" >
+            <img class="dragonlogo center-block animated pulse" src="images/dragonblack.png" >
           </div>
         <div class="panel-group" id="info-accordion">
 <!-- Contact Us content in Information-modal -->
@@ -227,7 +225,7 @@
             <div id="collapse-infoOne" class="panel-collapse collapse in">
               <div class="panel-body text-center">
                 <address>
-                  <strong>The Marina</strong><br>
+                  <strong class="animated pulse">The Marina</strong><br>
                     28 Spring Tree Road<br>
                     Brattleboro, Vermont<br>
                   <h4>(802) 257-7563</h4>
@@ -235,7 +233,7 @@
                 <address>
                   <a href="mailto:westrivermarina@gmail.com "><span class="glyphicon glyphicon-envelope"></span>
                     westrivermarina@gmail.com </a> <br> <br>
-                    <strong>Our Restaurant and Gallery are Open:</strong><br>
+                    <strong class="animated pulse address-2">Our Restaurant and Gallery are Open:</strong><br>
                     Everyday <br>
                     Sunday Brunch: 10am to 1pm<br><br>
                     Hours: Sun: 10am-9pm  <br>  M-W: 11:30am-9pm <br>  Th-Sat: 11:30am-10pm  <br>   <br>         
@@ -500,20 +498,25 @@
         </div>
       </div>
     </div>
+<!-- bottom of Modals -->
+
+
+
+
 <!-- Wrapper -->
     <div class= "wrapper">
-  <!-- logo components -->
+<!-- logo components -->
       <div id="prlx_lyr_3" class="logo">
       </div>
       <div class="sub-logo-fish">  
       </div>
       <div id="prlx_lyr_2"class="sub-logo">
       </div>
-  <!-- main building layer -->
+<!-- main building layer -->
       <div id="prlx_lyr_1" class="marina-layer">
       </div>
 <!-- Main Buttons -->
-      <div id="prlx_lyr_4" class="main-buttons">
+      <div id="prlx_lyr_4" class="animated bounce main-buttons">
         <div class="btn-group btn-group-justified">
           <div class="btn-group">
             <button class="btn  calender-button" data-toggle="modal" data-target=".calender-modal">Calendar</button>
@@ -527,48 +530,51 @@
         </div>
       </div>
 <!-- Scroll button-->
-      <div id="arrow-button"> <a class="arrowtext">&nbsp;Click &nbsp;Here</a>
+      <div id="arrow-button"> 
+        <a class="arrowtext">&nbsp;Click &nbsp;Here
+          <img  class="fish-btn animate-me  box-a"src="images/logo/fish.png">
+        </a>
       </div>
 <!-- Buttons: for modal -Calender -Menu- Info -->
       <div id="prlx_lyr_5" class="social-media">
         <a href="http://facebook.com/vermontmarina" target="_blank">
-          <div class="social-icons facebook-button">
+          <div class=" social-icons facebook-button">
           </div>
         </a>
         <a href="#" data-toggle="modal" data-target="#you-tube">
-          <div class="social-icons youtube-button">
+          <div class="animate-youtube box-b social-icons youtube-button">
           </div>
         </a>
         <a href="http://twitter.com/vermontmarina" target="_blank">
-          <div class="social-icons twitter-button">
+          <div class=" social-icons twitter-button">
           </div>
         </a>
         <a href="http://www.tripadvisor.com/Restaurant_Review-g57192-d2259865-Reviews-The_Marina-Brattleboro_Vermont.html" target="_blank">
-          <div class="social-icons tripadvisor-button">
+          <div class=" social-icons tripadvisor-button">
           </div>
         </a>
         <a href="http://www.yelp.com/biz/the-marina-brattleboro-2"target="_blank">
-          <div class="social-icons yelp-button">
+          <div class=" social-icons yelp-button">
           </div>
         </a>
         <a  href="mailto:westrivermarina@gmail.com">
-          <div class="social-icons email-button">
+          <div class=" social-icons email-button">
           </div>
         </a>
         <a href="http://www.foodnetwork.com/restaurants/vt/brattleboro/the-marina-restaurant-restaurant.html" target="_blank" class=" ">
-          <div class="social-icons foodnetwork-button">
+          <div class=" social-icons foodnetwork-button">
           </div>
         </a>
       </div>
 <!-- Buttons: for modal -Trail Gallery Kayak Brattleboro -->
       <div class="right-buttons">
-        <div class="button-icon button-brattleboro" type="button" data-toggle="modal" data-target="#trip-advisor">
+        <div class="animate-this animated bounceInLeft button-icon button-brattleboro" type="button" data-toggle="modal" data-target="#trip-advisor">
         </div>
-        <div class="button-icon button-kayak" type="button" data-toggle="modal" data-target="#kayak">
+        <div class="animate-this animated bounceInLeft  button-icon button-kayak" type="button" data-toggle="modal" data-target="#kayak">
         </div>
-        <div class="button-icon button-gallery" type="button" data-toggle="modal" data-target="#gallery">
+        <div class="animate-this animated bounceInLeft  button-icon button-gallery" type="button" data-toggle="modal" data-target="#gallery">
         </div>
-        <div class="button-icon button-trail" type="button" class="trail-button" data-toggle="modal" data-target="#trail">
+        <div class="animate-this animated bounceInLeft button-icon button-trail" type="button" class="trail-button" data-toggle="modal" data-target="#trail">
         </div>
       </div>
 <!-- Water Dragon -->
@@ -586,6 +592,11 @@
           <a href="#" data-toggle="dropdown" class="pull-left navbar-text more-bttn ">
             MORE<span class="caret"></span>
           </a>
+<!-- Photo button-->
+          <a href="#" data-toggle="modal" data-target=".modal-photos" class="main-photo">
+            <img class="animated rollIn main-photo-btn" src="images/currated-photos/photo-btn.png">
+            <strong class="animated fadeOutLeft">Photos</strong>
+          </a>
           <a class="pull-right navbar-text" data-toggle="modal" data-target=".information-modal-lg">
           The Marina &nbsp;&nbsp; 
           </a>
@@ -595,13 +606,13 @@
             <li><a href="" class="menu-toggle roll-link"><span data-title="site map">Site-Map</span></a></li>
             <li><a href="" data-toggle="modal" data-target="#trail"class="roll-link"><span data-title="West-River Trail">West-River Trail</span></a></li>
             <li><a href="" data-toggle="modal" data-target="#you-tube"class="roll-link"><span data-title="Videos">Videos</span></a></li>
-            <li><a href="" data-toggle="modal" data-target=".modal-photos"class="roll-link"><span data-title="Images">Images</span></a></li>
+            <li><a href="" data-toggle="modal" data-target=".modal-photos"class="roll-link"><span data-title="Photos">Photos</span></a></li>
             <li class="divider"></li>
             <li><a href="" data-toggle="modal" data-target="#menu"class="roll-link"><span data-title="Menu">Menu </span></a></li>
           </ul>
         </div>
       </div>
-      <a href="#" class=" toggle-button menu-toggle">Click Here</a> 
+      <a href="#" class="animate-click toggle-button menu-toggle">Click Here</a> 
       <nav class="menu-side">
          This is a Site Map:
          <a href="#" class="menu-toggle pull-right">close</a>
@@ -611,7 +622,7 @@
           <li><a href="" data-toggle="modal" data-target=".calender-modal"class="roll-link"><span data-title="Events">Events <br> Calendar</span></a></li>
           <li><a href="" data-toggle="modal" data-target="#trail"class="roll-link"><span data-title="West-River Trail">West-River Trail</span></a></li>
            <li><a href="" data-toggle="modal" data-target="#you-tube"class="roll-link"><span data-title="Videos">Videos</span></a></li>
-          <li><a href=""data-toggle="modal" data-target=".modal-photos"class="roll-link"><span data-title="Images">Images</span></a></li>
+          <li><a href=""data-toggle="modal" data-target=".modal-photos"class="roll-link"><span data-title="Photos">Photos</span></a></li>
           <li><a href="" data-toggle="modal" data-target="#gallery"class="roll-link"><span data-title="Art">Gallery Art</span></a></li>
           <li><a href="" data-toggle="modal" data-target="#kayak"class="roll-link"><span data-title="kayak">Kayak Rental</span></a></li>
           <li><a href="" data-toggle="modal" data-target="#trip-advisor"class="roll-link"><span data-title="Trip advisor">Local Attractions</span></a></li>
@@ -634,11 +645,11 @@
           </address>
           <a href="https://www.google.com/maps/place/The+Marina/@42.8678224,-72.5611245,16z/data=!4m2!3m1!1s0x89e11af98f919289:0xfc8b4733988ba3d" target="blank">Find us: Google Maps</a>
           <a href="http://twitter.com/vermontmarina" target="_blank">
-            <div class="social-icons twitter-button">
+            <div class="social-icons twitter-button box-c">
             </div>
           </a>
           <a href="http://facebook.com/vermontmarina" target="_blank">
-            <div class="social-icons facebook-button">
+            <div class="social-icons facebook-button box-c">
             </div>
           </a>
         </div>
@@ -688,6 +699,30 @@
     });
     })();
     </script>
+<!-- animate.css add class via-->
+    <script>
+        $('.animate-me').on('click', function() {
+            $('.box-a').addClass('animated tada');
+
+        });
+    </script>
+    <script>
+        $('.animate-youtube').on('click', function() {
+            $('.box-b').addClass('animated bounce');
+
+        });
+    </script>
+    <script>
+        $('.animate-click').on('click', function() {
+            $('.box-c').addClass('animated flip');
+
+        });
+    </script>
+    <script>
+        $('.animate-btn').on('click', function() {
+            $('.box-d').addClass('animated hinge');
+
+        });
     </script>
 <!-- trip advisor logo-award in About panel in information-modal -->
     <script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=881&amp;locationId=2259865&amp;lang=en_US&amp;year=2013">

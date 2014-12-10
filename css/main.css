@@ -44,6 +44,9 @@ body{
     z-index: 99;
 }
 
+.loader-txt{
+	font-family: 'Exo 2', sans-serif
+}
 
 div.wrapper{
 	height:100%;
@@ -123,6 +126,8 @@ div.main-buttons {
 	width: 30%;
 	margin-left:50%;
   min-width: 300px;
+  animation-delay: 8s;
+	-webkit-animation-delay: 8s;
 }
 
 
@@ -420,7 +425,7 @@ div.foodnetwork-button{
 
 
 #arrow-button {
-  background: black;
+  background:  #555;
   border-radius: 50%;
   height: 40px;
   position: fixed;
@@ -435,6 +440,40 @@ div.foodnetwork-button{
   color: #7FFF00;
 }
 
+a img.fish-btn{
+width: 65px;
+position: relative;
+top: -36px;
+left: 21px;
+z-index: -3;
+
+}
+
+.main-photo{
+ 	position: relative;
+	left: 31%;
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+}
+.main-photo-btn{
+ 	width: 32px;
+	animation-delay:.5s;
+	-webkit-animation-delay:.5s;
+ }
+
+.animate-this{
+	animation-delay:8s;
+	-webkit-animation-delay:8s;
+}
+
+.address-2{
+	animation-delay:.8s;
+	-webkit-animation-delay:.8s;
+}
+.address-3{
+	animation-delay:1.5s;
+	-webkit-animation-delay:1.5s;
+}
 
 .dragonlogo{
 	position: relative;
