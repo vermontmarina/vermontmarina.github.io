@@ -88,6 +88,8 @@ div.sub-logo-fish{
 	height: 8em;
 	width: 12em;
 	z-index: 4;
+	 animation-delay: 4.8s;
+	-webkit-animation-delay: 4.8s;
 	}
 
 div.marina-layer{
