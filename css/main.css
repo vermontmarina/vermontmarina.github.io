@@ -42,10 +42,16 @@ body{
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
     z-index: 99;
+    -webkit-filter: drop-shadow(0 0 7px #3FF9F9);
 }
 
 .loader-txt{
 	font-family: 'Exo 2', sans-serif
+	
+}
+
+h1.text-center.loader-txt {
+-webkit-filter: drop-shadow(0 0 7px #3FF9F9);
 }
 
 div.wrapper{
@@ -76,6 +82,7 @@ div.sub-logo{
 	top: 10em;
 	margin-left: 15em;
 	z-index: 4;
+	-webkit-filter: drop-shadow(0 0 20px #3FF9F9)
 }
 
 div.sub-logo-fish{
@@ -141,7 +148,22 @@ h3{
 
 /* main button stles and modal sytles */
 
+.btn-group-justified {
 
+filter: drop-shadow(0 0 6px #F955F0);
+-o-filter: drop-shadow(0 0 6px #F955F0);
+-moz-filter: drop-shadow(0 0 6px #F955F0);
+-webkit-filter: drop-shadow(0 0 6px #F955F0);
+}
+
+.btn-group>.btn-group:not(:first-child):not(:last-child)>.btn, .btn-group>.btn-group:first-child>.btn:last-child, .btn-group>.btn-group:first-child>.dropdown-toggle, .btn-group>.btn-group:last-child>.btn:first-child {
+
+
+filter: drop-shadow(0 0 6px #2ED8F7);
+-o-filter: drop-shadow(0 0 6px #2ED8F7);
+-moz-filter: drop-shadow(0 0 6px #2ED8F7);
+-webkit-filter: drop-shadow(0 0 6px #2ED8F7);
+}
 
 
 .menu-button{
@@ -258,6 +280,12 @@ li.active{
   background-color: #8DFF91;
 }
 
+.chamber{
+border: 2px solid greenyellow;
+}
+
+
+
 .kayak-modal-background{
   background-color: #EED1FF;
 
@@ -265,6 +293,11 @@ li.active{
 .gallery-modal{
   background-color: #FFC884;
 }
+.photo-modal{
+	background-color: #926BF0;
+}
+
+
 
 .music-info-style{
   background-color: #F89AFF;
@@ -457,13 +490,18 @@ div.foodnetwork-button{
 
 }
 
-a img.fish-btn{
-width: 65px;
-position: relative;
-top: -36px;
-left: 21px;
-z-index: -3;
 
+
+a img.fish-btn{
+	width: 65px;
+	position: relative;
+	top: -36px;
+	left: 21px;
+	z-index: -3;
+	filter: drop-shadow(0 0 12px #C6F8FC);
+	-moz-filter: drop-shadow(0 0 12px #C6F8FC);
+	-o-filter: drop-shadow(0 0 12px #C6F8FC);
+	-webkit-filter: drop-shadow(0 0 12px #C6F8FC);
 }
 
 .main-photo{
@@ -471,11 +509,13 @@ z-index: -3;
 	left: 31%;
 	animation-delay: 1s;
 	-webkit-animation-delay: 1s;
+	-webkit-filter: drop-shadow(0 0 1px #3FF9F9)
 }
 .main-photo-btn{
  	width: 32px;
 	animation-delay:.5s;
 	-webkit-animation-delay:.5s;
+
  }
 
 .animate-this{
@@ -501,8 +541,15 @@ z-index: -3;
 	-webkit-animation-delay:.2s;
 
 }
+nav
 
 /* nav bar pop up */
+/*.more-bttn{
+-webkit-filter: drop-shadow(0 0 1px blue);
+filter: drop-shadow(0 0 1px blue);
+}*/
+
+
 div.dropup li a{
 	font-family: 'Open Sans';
 	color:black;
@@ -597,6 +644,11 @@ div.dropup li a:hover{
 
 }
 
+.sitemap-address-t{
+	filter: drop-shadow(0 0 20px #fff);
+	-webkit-filter: drop-shadow(0 0 20px #fff);
+}
+
 .menu-side,
 .menu{
 	-webkit-transition: right .2s ease;
@@ -615,6 +667,7 @@ div.dropup li a:hover{
 	height:100%;
 	padding:10px;
 	z-index: 30;
+	overflow-y: scroll; 
 }
 .toggle-button{
 	position: absolute;
@@ -622,6 +675,10 @@ div.dropup li a:hover{
 	left:2000px;
 	font-family: ('Open Sans');
 	font-size:1.6em;
+	filter: drop-shadow(0 0 6px #2ED8F7);
+	-moz-filter: drop-shadow(0 0 6px #2ED8F7);
+	-o-filter: drop-shadow(0 0 6px #2ED8F7);
+	-webkit-filter: drop-shadow(0 0 6px #2ED8F7);
 }
 
 .right-nav a{
@@ -716,10 +773,6 @@ div.dropup li a:hover{
   }
 }
 
-
-.photo-modal{
-	background-color: #926BF0;
-}
 /*  Photo- Galley   */
 .photo-container {
     background:#C9FFEA;
@@ -738,6 +791,10 @@ div.dropup li a:hover{
 }
 
 /*  gallery styles */
+.art-1st{
+	border: 1px solid #fff;
+
+}
 .gallery {
     width:610px;
     margin:0 auto;
