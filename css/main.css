@@ -61,6 +61,14 @@ div.wrapper{
 }
 
 
+
+.nye {
+	filter: drop-shadow(0 0 6px #2ED8F7);
+-o-filter: drop-shadow(0 0 6px #2ED8F7);
+-moz-filter: drop-shadow(0 0 6px #2ED8F7);
+-webkit-filter: drop-shadow(0 0 6px #2ED8F7);
+}
+
 div.logo{
 	background-image: url('../images/logo/marinalogo.png');
 	background-size: 100%;
