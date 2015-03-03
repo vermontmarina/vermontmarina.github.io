@@ -624,7 +624,7 @@ div.dropup li a:hover{
 	left: 2em;
 	background-color: #F09AFF;
 	z-index: 30;
-	
+	font-size: 2em;
 }
 
 .dropdown-menu:hover{
@@ -897,5 +897,6 @@ left:150px;
 .gallery a:focus ~ .close {
     display:block;
 }
+
 
 
