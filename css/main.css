@@ -29,6 +29,7 @@ body{
     bottom:0;
     background-color:#fff; /* change if the mask should have another color then white */
     z-index:99; /* makes sure it stays on top */
+    opacity: .8;
 }
 
 #status {
@@ -61,12 +62,13 @@ div.wrapper{
 }
 
 
+img.local {
 
-.nye {
-	filter: drop-shadow(0 0 6px #2ED8F7);
--o-filter: drop-shadow(0 0 6px #2ED8F7);
--moz-filter: drop-shadow(0 0 6px #2ED8F7);
--webkit-filter: drop-shadow(0 0 6px #2ED8F7);
+}
+
+
+img.local:hover {
+	border: 4px solid blue;
 }
 
 div.logo{
@@ -149,7 +151,7 @@ div.main-buttons {
 
 
 
-h3{
+h3 {
   font-family: 'Exo 2', sans-serif;
 }
 
@@ -174,165 +176,180 @@ filter: drop-shadow(0 0 6px #2ED8F7);
 }
 
 
-.menu-button{
+.menu-button {
   background-color:#FF56DE ;
   border-color:#ED3BFF;
   border-radius: 10px;
  
 }
-.menu-tab{
+.menu-tab {
   background-color:#71FF77 ;
 
 }
 
-.menu-modal-background{
+.menu-modal-background {
   background-color: #7FE7FF;
+  opacity: .95;
 
 }
-.menu-button:hover{
-
+.menu-button:hover {
   background-color:#ED3BFF;
    color: #003C51;
 
 }
 
-.menu-close-button{
+.menu-close-button {
   background-color: #F09AFF;
 }
 
-.menu-close-button:hover{
+.menu-close-button:hover {
   background-color: #B424FF;
 }
-.info-button{
+.info-button {
   background-color: #51FF66;
   border-color:#98F100;
   color: #003C51;
 }
 
-.info-button:hover{
+.info-button:hover {
 
   background-color:#98F100;
 
 }
-.info-modal-background{
+.info-modal-background {
   background-color: #E69FFF;
+    opacity: .96;
 }
 
-#info-accordion{
+#info-accordion {
 	background-color: #FFE5D4;
 }
 
-.panel-info{
+.panel-info {
 	background-color: #D9FFDA;
 }
 
-li.active{
+li.active {
   background-color: #FF76AF;
 }
 
-.calender-button{
+.calender-button {
   background-color: #FFFB5F;
   border-color:#FFF79F;
   color: #003C51;
 }
 
-.calender-button:hover{
+.calender-button:hover {
 
   background-color:#FFF79F;
 
 }
-.google-calender{
+.google-calender {
   max-height:80%;
   width:100%;
   min-height: 400px;
 }
-.calender-panel{
+.calender-panel {
   background-color: #FF76FB;
 }
 
-.calender-modal-background{
+.calender-modal-background {
   background-color: #FFFB5F;
+  opacity: .97;
 }
 
-.music-panel{
+.music-panel {
   background-color: #97FF7A;
 }
 
-.music-right{
+.music-right {
 	margin-right: 5%;
 
 }
 
-.music-left{
+.music-left {
 	margin-left: 5%;
 }
 
-.trail-modal-background{
+.trail-modal-background {
   background-color: #CCFFDF;
 
 }
 
-.trail-panel-background{
+.trail-panel-background {
   background-color: #B6FFB6;
+  opacity: .9;
 
 }
 
-.trail-modal-body{
+.trail-modal-body {
   background-image: url('../images/trail-modal-background.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   color: #EEE;
+  opacity: .86;
 }
 
-.trip-modal-body{
+.trip-modal-body {
   background-color: #8DFF91;
+  opacity: .75;
 }
 
-.chamber{
-border: 2px solid greenyellow;
+.chamber {
+border: 4px solid greenyellow;
 }
 
 
 
-.kayak-modal-background{
+.kayak-modal-background {
   background-color: #EED1FF;
+  background-image: url('../images/logo/canoe.jpg');
+  opacity: .8;
+  color: rgb(244, 242, 250);
+  height: 559px;
+} 
 
+.dark-txt {
+	 color: rgb(153, 160, 224);
 }
-.gallery-modal{
-  background-color: #FFC884;
+.gallery-modal {
+    background-color: #9FEDA6;
+  opacity: .86;
+
 }
 .photo-modal{
 	background-color: #926BF0;
+	  opacity: 0.82;
 }
 
-
-
-.music-info-style{
+.music-info-style {
   background-color: #F89AFF;
 }
 
-.music-info-style2{
+.music-info-style2 {
   background-color: #84F2FF;
+
 }
 
-.music-one-background{
+.music-one-background {
   background-color: #9AE7FF;
 }
 
-.community-links a{
+.community-links a {
   font-size: 1.5em;
 }
 
-.directions-map{
+.directions-map {
   width: 100%;
   min-height: 300px;
   max-height:500px;
 }
 
-.you-tube-modal{
+.you-tube-modal {
   background-color: #FF6C5F;
 }
-.you-tube-player{
+
+.you-tube-player {
   width:100%;
   min-height: 300px;
 }
@@ -346,12 +363,12 @@ div.right-buttons {
 	width: 600px;
 }
 
-.button-icon:hover{
+.button-icon:hover {
 	border: 2px solid transparent;
 }
 
 
-.button-icon{
+.button-icon { 
 	display: inline-block;
 	margin: 1em;
 }
@@ -359,7 +376,7 @@ div.right-buttons {
 
 
 /*  right buttons  */
-div.button-brattleboro{
+div.button-brattleboro {
 	background-image: url('../images/trip-advisor-sign.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -368,7 +385,7 @@ div.button-brattleboro{
 
 }
 
-div.button-kayak{
+div.button-kayak {
 	background-image: url('../images/kayak-sign.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -376,7 +393,7 @@ div.button-kayak{
 	width: 100px;
 }
 
-div.button-gallery{
+div.button-gallery {
 	background-image: url('../images/gallery-sign.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -384,7 +401,7 @@ div.button-gallery{
 	width: 100px;
 }
 
-div.button-trail{
+div.button-trail {
 	background-image: url('../images/trail-sign.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -394,12 +411,12 @@ div.button-trail{
 }
 
 
-.social-icons:hover{
+.social-icons:hover {
 	border: 2px solid transparent;
 
 }
 
-.social-icons{
+.social-icons { 
 	display: inline-block;
 	margin: 1em;
 }
@@ -413,7 +430,7 @@ div.button-trail{
 
 }
 /* social media button */
-div.facebook-button{
+div.facebook-button {
 	background-image: url('../images/icons/facebook.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -421,7 +438,7 @@ div.facebook-button{
 	width:  3.5em;
 
 }
-div.youtube-button{
+div.youtube-button {
 	background-image: url('../images/icons/youtube.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -429,7 +446,7 @@ div.youtube-button{
 	width:  3.5em;
 
 }
-div.twitter-button{
+div.twitter-button {
 	background-image: url('../images/icons/twitter.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -437,7 +454,7 @@ div.twitter-button{
 	width: 3.5em;
 
 }
-div.tripadvisor-button{
+div.tripadvisor-button {
 	background-image: url('../images/icons/tripadvisor.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -446,7 +463,7 @@ div.tripadvisor-button{
 
 }
 
-div.yelp-button{
+div.yelp-button {
 	background-image: url('../images/icons/yelp.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -455,7 +472,7 @@ div.yelp-button{
 
 }
 
-div.email-button{
+div.email-button {
 	background-image: url('../images/icons/email.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -463,7 +480,7 @@ div.email-button{
 	width: 3.5em;
 
 }
-div.foodnetwork-button{
+div.foodnetwork-button {
 	background-image: url('../images/icons/foodnetwork.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -625,6 +642,7 @@ div.dropup li a:hover{
 	background-color: #F09AFF;
 	z-index: 30;
 	font-size: 2em;
+	opacity: .9;
 }
 
 .dropdown-menu:hover{

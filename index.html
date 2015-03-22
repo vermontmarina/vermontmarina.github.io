@@ -36,6 +36,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src='http://dragon.deparadox.com/drag-on.js'></script>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,31 +45,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript">
 
-    function parallax(){
-
-        var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
-        var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
-        var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
-        var prlx_lyr_4 = document.getElementById('prlx_lyr_4');
-        var prlx_lyr_5 = document.getElementById('prlx_lyr_5');
-        var prlx_lyr_6 = document.getElementById('prlx_lyr_6');
-      
-        prlx_lyr_1.style.left = -(window.pageXOffset/1.5)+'px';
-        prlx_lyr_2.style.left = -(window.pageXOffset/4)+'px';
-        prlx_lyr_3.style.left = -(window.pageXOffset/1.5)+'px';
-        prlx_lyr_4.style.left = (window.pageXOffset/3.5)+'px';
-        prlx_lyr_5.style.left = -(window.pageXOffset/2)+'px';
-        prlx_lyr_6.style.left = (window.pageXOffset/2)+'px';
-        
-        }
-
-        window.addEventListener("scroll", parallax, false);
-
-    </script>
   </head>
-  <body id="doScroll" class="menu">
+  <body id="doScroll" class="dragon menu">
 <!-- Preloader -->
     <div id="preloader">
       <h1 class="text-center loader-txt"> Welcome to The Marina: </h1>
@@ -402,14 +382,14 @@
         <div class="modal-content kayak-modal-background">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="KayakLabel">Kayak rentals directly across the street</h4>
+            <h4 class="modal-title dark-txt" id="KayakLabel">Kayak rentals directly across the street</h4>
           </div>
           <div class="modal-body animated pulse">
             <h3>
               <a href="http://www.vermontcanoetouringcenter.com/" target="_blanlk">Vermont Canoe Touring Center</a>
             </h3>
             <h4 class="text-center">
-              <em>Canoeing Kayaking & River Adventures for Individuals Couples, Families, Small and Large Groups</em>
+              <em class="dark-txt">Canoeing Kayaking & River Adventures for Individuals Couples, Families, Small and Large Groups</em>
                 <br><br><br>
                 OPEN MAY THROUGH OCTOBER<br>
                 <br>
@@ -464,9 +444,21 @@
           </div>
           <div class="modal-body">
           <a  href="http://brattleborochamber.org/" target="_blank">
-            <img src="images/logo/chamber-logo.png" alt="chamber logo" class="chamber animated rubberBand img-responsive center-block"> 
+            <img src="images/logo/chamber-logo.png" alt="chamber logo" class="local chamber animated rubberBand img-responsive center-block"> 
           </a>
-          <a href="http://thehall.net/business/the-marina0119/" target="_blank"><img src="http://thehall.net/wp-content/themes/profxd/images/logo.png" alt="the Hall" /></a>
+          <a  href="http://fortyputneyroad.com" target="_blank">
+            <img src="images/logo/40putneyroad.png" alt="chamber logo" class="local chamber animated rubberBand img-responsive center-block"> 
+          </a>
+          <a  href="http://www.qualityinn.com/hotel-brattleboro-vermont-VT027" target="_blank">
+            <img src="images/logo/qualityINN.png" alt="chamber logo" class="local animated rubberBand img-responsive center-block"> 
+          </a>
+          <a  href="http://westriverinn.com/" target="_blank">
+            <img src="images/logo/westriverINN.png" alt="chamber logo" class="local chamber animated rubberBand img-responsive center-block"> 
+          </a>
+          <a  href="http://hamptonbrattleboro.com/" target="_blank">
+            <img src="images/logo/HamptonINN.png" alt="chamber logo" class="local chamber animated rubberBand img-responsive center-block"> 
+          </a>
+          <a href="http://thehall.net/business/the-marina0119/" target="_blank"><img src="http://thehall.net/wp-content/themes/profxd/images/logo.png" alt="the Hall" class="local animated rubberBand img-responsive center-block" /></a>
           </div>
         </div>
       </div>
@@ -620,7 +612,7 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="" data-toggle="modal" data-target=".information-modal-lg"class="roll-link"><span data-title="Information">Information</span></a></li>
             <li><a href="" data-toggle="modal" data-target=".calender-modal"class="roll-link"><span data-title="Events">Events</span></a></li>
-            <li><a href="" class="menu-toggle roll-link"><span data-title="site map">Site-Map</span></a></li>
+            <li><a href="" class="menu-toggle roll-link"><span data-title="Site map">Site-Map</span></a></li>
             <li><a href="" data-toggle="modal" data-target="#trail"class="roll-link"><span data-title="West-River Trail">West-River Trail</span></a></li>
             <li><a href="http://www.youtube.com/playlist?list=PLrImkXjL1hSsfz4QrL2M-PmzvyjbPqxpy" target="_blank" class="roll-link"><span data-title="Videos">Videos</span></a></li>            <li><a href="" data-toggle="modal" data-target=".modal-photos"class="roll-link"><span data-title="Photos">Photos</span></a></li>
             <li class="divider"></li>
@@ -635,13 +627,13 @@
         <ul class="right-nav">
           <li><a href="" data-toggle="modal" data-target="#menu"class="roll-link"><span data-title="Menu">Menu </span></a></li>
           <li><a href="" data-toggle="modal" data-target=".information-modal-lg"class="roll-link"><span data-title="Information">Information <br> Directions</span></a></li>
-          <li><a href="#" data-toggle="modal" data-target=".calender-modal"class="roll-link"><span data-title="Events">Events <br> Calendar</span></a></li>
+          <li><a href="#" data-toggle="modal" data-target=".calender-modal"class="roll-link"><span data-title="Calendar">Event-<br> Calendar</span></a></li>
           <li><a href="#" data-toggle="modal" data-target="#trail"class="roll-link"><span data-title="West-River Trail">West-River Trail</span></a></li>
          <li><a href="http://www.youtube.com/playlist?list=PLrImkXjL1hSsfz4QrL2M-PmzvyjbPqxpy" target="_blank" class="roll-link"><span data-title="Videos">Videos</span></a></li>
           <li><a href="#"data-toggle="modal" data-target=".modal-photos"class="roll-link"><span data-title="Photos">Photos</span></a></li>
           <li><a href="#" data-toggle="modal" data-target="#gallery"class="roll-link"><span data-title="Art">Gallery Art</span></a></li>
-          <li><a href="#" data-toggle="modal" data-target="#kayak"class="roll-link"><span data-title="kayak">Kayak Rental</span></a></li>
-          <li><a href="#" data-toggle="modal" data-target="#trip-advisor"class="roll-link"><span data-title="Trip advisor">Local Attractions</span></a></li>
+          <li><a href="#" data-toggle="modal" data-target="#kayak"class="roll-link"><span data-title="Kayak Rentals">Kayak Rental</span></a></li>
+          <li><a href="#" data-toggle="modal" data-target="#trip-advisor"class="roll-link"><span data-title="Local Attractions">Local Attractions</span></a></li>
         </ul>
           <br>
         <div class="sitemap-address text-center">
@@ -672,8 +664,6 @@
             <div id="TA_virtualsticker641" class="TA_virtualsticker"><ul id="wL54s4aC" class="TA_links MnXcgtzO"><li id="eNtLYbQPU" class="OCuGdKoDcCn"><a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_sticker_logo_88x55-18961-2.png" alt="TripAdvisor"/></a></li></ul></div><script src="http://www.jscache.com/wejs?wtype=virtualsticker&uniq=641&lang=en_US&locationId=2259865&display_version=2"></script>
           </div>
           <br>
-          <a href="http://laf.land">Built and Maintained by:<br> Jordan Lafland</a><br><br><br><br>
-          <a href="http://farmers-market.nyc" style:"color:#333"></a>
         </div>
       </nav>
     </div>
@@ -726,9 +716,31 @@
             $('.box-d').addClass('animated wobble tada-btn');
 
         });
+
+    function parallax(){
+
+        var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
+        var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
+        var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
+        var prlx_lyr_4 = document.getElementById('prlx_lyr_4');
+        var prlx_lyr_5 = document.getElementById('prlx_lyr_5');
+        var prlx_lyr_6 = document.getElementById('prlx_lyr_6');
+      
+        prlx_lyr_1.style.left = -(window.pageXOffset/1.5)+'px';
+        prlx_lyr_2.style.left = -(window.pageXOffset/4)+'px';
+        prlx_lyr_3.style.left = -(window.pageXOffset/1.5)+'px';
+        prlx_lyr_4.style.left = (window.pageXOffset/3.5)+'px';
+        prlx_lyr_5.style.left = -(window.pageXOffset/2)+'px';
+        prlx_lyr_6.style.left = (window.pageXOffset/2)+'px';
+        
+        }
+
+        window.addEventListener("scroll", parallax, false);
+
     </script>
 
     <script src="js/bootstrap.min.js"></script>
+
 <!-- Preloader -->
     <script type="text/javascript">
       //<![CDATA[
