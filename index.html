@@ -37,7 +37,6 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src='http://dragon.deparadox.com/drag-on.js'></script>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +46,7 @@
     <![endif]-->
 
   </head>
-  <body id="doScroll" class="dragon menu">
+  <body id="doScroll" class="menu">
 <!-- Preloader -->
     <div id="preloader">
       <h1 class="text-center loader-txt"> Welcome to The Marina: </h1>
@@ -56,6 +55,30 @@
       <div class="animated rotateInUpRight" id="status">&nbsp;</div>
     </div>
 <!-- <modals> -->
+<!-- photos -->
+    <div class="modal fade modal-photos" tabindex="-1" role="dialog"  aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content photo-modal">
+         <div class="photo-container" id="container">
+            <div class="gallery">
+                <a tabindex="1"><img src="images/currated-photos/sunset.jpg" alt="sunset" /></a>
+                <a tabindex="1"><img src="images/currated-photos/inside.jpg" alt="inside shot" /></a>
+                <a tabindex="1"><img src="images/currated-photos/dragon-night.jpg" alt="dragon in water" /></a>
+                <a tabindex="1"><img src="images/currated-photos/party.jpg" alt="party" /></a>
+                <a tabindex="1"><img src="images/currated-photos/night-water.jpg" alt="night water" /></a>
+                <a tabindex="1"><img src="images/currated-photos/deck2.jpg" alt="deck" /></a>
+                <a tabindex="1"><img src="images/currated-photos/music-inside.jpg" alt="music inside" /></a>
+                <a tabindex="1"><img src="images/currated-photos/night-water2.jpg" alt="night water" /></a>
+                <a tabindex="1"><img src="images/currated-photos/music.jpg" alt="live music" /></a>
+                <a tabindex="1"><img src="images/currated-photos/boats.jpg" alt="boats" /></a>
+                <a tabindex="1"><img src="images/currated-photos/summer.jpg" alt="summer" /></a>
+                <a tabindex="1"><img src="images/currated-photos/boats2.jpg" alt="boats" /></a>
+                <span class="close"></span>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </div>
 <!--calendar modal w google calendar embed -->
     <div class="modal fade calender-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
@@ -463,30 +486,6 @@
         </div>
       </div>
     </div>
-<!-- photos -->
-    <div class="modal fade modal-photos" tabindex="-1" role="dialog"  aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content photo-modal">
-         <div class="photo-container" id="container">
-            <div class="gallery">
-                <a tabindex="1"><img src="images/currated-photos/sunset.jpg" alt="sunset" /></a>
-                <a tabindex="1"><img src="images/currated-photos/inside.jpg" alt="inside shot" /></a>
-                <a tabindex="1"><img src="images/currated-photos/dragon-night.jpg" alt="dragon in water" /></a>
-                <a tabindex="1"><img src="images/currated-photos/party.jpg" alt="party" /></a>
-                <a tabindex="1"><img src="images/currated-photos/night-water.jpg" alt="night water" /></a>
-                <a tabindex="1"><img src="images/currated-photos/deck2.jpg" alt="deck" /></a>
-                <a tabindex="1"><img src="images/currated-photos/music-inside.jpg" alt="music inside" /></a>
-                <a tabindex="1"><img src="images/currated-photos/night-water2.jpg" alt="night water" /></a>
-                <a tabindex="1"><img src="images/currated-photos/music.jpg" alt="live music" /></a>
-                <a tabindex="1"><img src="images/currated-photos/boats.jpg" alt="boats" /></a>
-                <a tabindex="1"><img src="images/currated-photos/summer.jpg" alt="summer" /></a>
-                <a tabindex="1"><img src="images/currated-photos/boats2.jpg" alt="boats" /></a>
-                <span class="close"></span>
-            </div>
-          </div>        
-        </div>
-      </div>
-    </div>
 <!-- You-tube modal w google You-tube embed 
     <div class="modal fade" id="you-tube" tabindex="-1" role="dialog" aria-labelledby="you-tube" aria-hidden="true">
       <div class="modal-dialog">
@@ -505,7 +504,7 @@
 <!-- bottom of Modals -->
 
 <!-- Wrapper -->
-    <div class= "wrapper">
+    <div class= "wrapper ">
 <!-- logo components -->
       <div id="prlx_lyr_3" class="logo">
       </div>
@@ -667,8 +666,6 @@
         </div>
       </nav>
     </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Scroll button -->
     <script>
         $( document ).ready(function() {
@@ -736,6 +733,19 @@
         }
 
         window.addEventListener("scroll", parallax, false);
+
+        var curYPos = 0,
+    curXPos = 0,
+    curDown = false;
+
+window.addEventListener('mousemove', function(e){ 
+  if(curDown === true){
+    window.scrollTo(document.body.scrollLeft + (curXPos - e.pageX), document.body.scrollTop + (curYPos - e.pageY));
+  }
+});
+
+window.addEventListener('mousedown', function(e){ curDown = true; curYPos = e.pageY; curXPos = e.pageX; });
+window.addEventListener('mouseup', function(e){ curDown = false; });
 
     </script>
 
