@@ -37,6 +37,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,6 +48,15 @@
 
   </head>
   <body id="doScroll" class="menu">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5ZT4ZL"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5ZT4ZL');</script>
+<!-- End Google Tag Manager -->
 <!-- Preloader -->
     <div id="preloader">
       <h1 class="text-center loader-txt"> Welcome to The Marina: </h1>
@@ -61,18 +71,18 @@
         <div class="modal-content photo-modal">
          <div class="photo-container" id="container">
             <div class="gallery">
-                <a tabindex="1"><img src="images/currated-photos/sunset.jpg" alt="sunset" /></a>
-                <a tabindex="1"><img src="images/currated-photos/inside.jpg" alt="inside shot" /></a>
-                <a tabindex="1"><img src="images/currated-photos/dragon-night.jpg" alt="dragon in water" /></a>
-                <a tabindex="1"><img src="images/currated-photos/party.jpg" alt="party" /></a>
-                <a tabindex="1"><img src="images/currated-photos/night-water.jpg" alt="night water" /></a>
-                <a tabindex="1"><img src="images/currated-photos/deck2.jpg" alt="deck" /></a>
-                <a tabindex="1"><img src="images/currated-photos/music-inside.jpg" alt="music inside" /></a>
-                <a tabindex="1"><img src="images/currated-photos/night-water2.jpg" alt="night water" /></a>
-                <a tabindex="1"><img src="images/currated-photos/music.jpg" alt="live music" /></a>
-                <a tabindex="1"><img src="images/currated-photos/boats.jpg" alt="boats" /></a>
-                <a tabindex="1"><img src="images/currated-photos/summer.jpg" alt="summer" /></a>
-                <a tabindex="1"><img src="images/currated-photos/boats2.jpg" alt="boats" /></a>
+                <a tabindex="1"><img src="images/currated-photos/sunset.jpg" class="lazy" alt="sunset" /></a>
+                <a tabindex="1"><img src="images/currated-photos/inside.jpg" class="lazy" alt="inside shot" /></a>
+                <a tabindex="1"><img src="images/currated-photos/dragon-night.jpg" class="lazy" alt="dragon in water" /></a>
+                <a tabindex="1"><img src="images/currated-photos/party.jpg" class="lazy" alt="party" /></a>
+                <a tabindex="1"><img src="images/currated-photos/night-water.jpg" class="lazy" alt="night water" /></a>
+                <a tabindex="1"><img src="images/currated-photos/deck2.jpg" class="lazy" alt="deck" /></a>
+                <a tabindex="1"><img src="images/currated-photos/music-inside.jpg" class="lazy" alt="music inside" /></a>
+                <a tabindex="1"><img src="images/currated-photos/night-water2.jpg" class="lazy" alt="night water" /></a>
+                <a tabindex="1"><img src="images/currated-photos/music.jpg" class="lazy" alt="live music" /></a>
+                <a tabindex="1"><img src="images/currated-photos/boats.jpg" class="lazy" alt="boats" /></a>
+                <a tabindex="1"><img src="images/currated-photos/summer.jpg" class="lazy" alt="summer" /></a>
+                <a tabindex="1"><img src="images/currated-photos/boats2.jpg" class="lazy" alt="boats" /></a>
                 <span class="close"></span>
             </div>
           </div>        
@@ -117,7 +127,7 @@
                   <div class="row">
                     <div class="music-left col-sm-6 col-md-4 music-info-style2 pull-left">
                       <div class="thumbnail">
-                        <img src="images/Hobbs.jpg" alt="photo of Draa Hobbs">
+                        <img src="images/Hobbs.jpg" class="lazy" alt="photo of Draa Hobbs">
                         <div class=" animated flash caption tect-center music-info-style">
                           <h3>EVERY <u>SUNDAY</u> BRUNCH</h3>
                           <h4>
@@ -133,7 +143,7 @@
                     </div>
                     <div class="music-right col-sm-6 col-md-4 music-info-style pull-right">
                       <div class="thumbnail animated tada">
-                        <img src="images/openmic.jpg" alt="photo of Kevin Parry">
+                        <img src="images/openmic.jpg" class="lazy" alt="photo of Kevin Parry">
                         <div class="caption text-center music-one-background">
                           <h3>OPEN MIC EVERY <u>THURSDAY</u> 7-10pm with KEVIN PARRY</h3>
                           <h4>
@@ -171,13 +181,13 @@
               <li class="menu-tab"><a href="#page7" role="tab" data-toggle="tab">Wine List</a></li>
             </ul>
             <div class="tab-content" style="max-height:500px;overflow-y:auto;"> 
-              <div class="tab-pane active" id="page1"><img src="images/menu/page1.jpg" alt="menu page" class="center-block" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page2"><img src="images/menu/page2.jpg" alt="menu page" class="center-block" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page3"><img src="images/menu/page3.jpg" alt="menu page" class="center-block" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page4"><img src="images/menu/page4.jpg" alt="menu page" class="center-block" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page5"><img src="images/menu/page5.jpg" alt="menu page" class="center-block" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page6"><img src="images/menu/page6.jpg" alt="menu page" class="center-block" style="height:100%; width:100%;"></div>
-               <div class="tab-pane animated fadeInDown" id="brunch"><img src="images/menu/brunch.jpg" alt="menu page" style="height:100%; width:100%;"></div>
+              <div class="tab-pane active" id="page1"><img src="images/menu/page1.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page2"><img src="images/menu/page2.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page3"><img src="images/menu/page3.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page4"><img src="images/menu/page4.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page5"><img src="images/menu/page5.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page6"><img src="images/menu/page6.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+               <div class="tab-pane animated fadeInDown" id="brunch"><img src="images/menu/brunch.jpg" alt="menu page"  class="lazy"style="height:100%; width:100%;"></div>
               <div class="tab-pane" id="page7">
                 <ul class="list-group text-center">
                   <li class="list-group-item list-group-item-info "><em class="pull-left">
@@ -391,7 +401,7 @@
               </div>
               <div id="collapsetrailTwo" class="panel-collapse collapse">
                 <div class="panel-body trail-modal-body" style="max-height:500px;overflow-y:auto;">
-                  <img src="images/west-river-trail.jpg"  alt="West River Trail" class="west-river-trail-img img-responsive center-block" style="width:90%;height:90%;">
+                  <img src="images/west-river-trail.jpg"  alt="West River Trail" class="lazy west-river-trail-img img-responsive center-block" style="width:90%;height:90%;">
                 </div>
               </div>
             </div>
@@ -747,6 +757,10 @@ window.addEventListener('mousemove', function(e){
 window.addEventListener('mousedown', function(e){ curDown = true; curYPos = e.pageY; curXPos = e.pageX; });
 window.addEventListener('mouseup', function(e){ curDown = false; });
 
+
+$(function() {
+    $("img.lazy").lazyload();
+});
     </script>
 
     <script src="js/bootstrap.min.js"></script>
