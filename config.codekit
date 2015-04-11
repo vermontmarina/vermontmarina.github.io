@@ -78,6 +78,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/art-night.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48906,
+		"inputAbbreviatedPath": "\/images\/art-night.jpg",
+		"outputAbbreviatedPath": "\/images\/art-night.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/art1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -331,6 +342,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/extra\/gallwalk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10376,
+		"inputAbbreviatedPath": "\/images\/extra\/gallwalk.jpg",
+		"outputAbbreviatedPath": "\/images\/extra\/gallwalk.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/extra\/marina-painting.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18123,
+		"inputAbbreviatedPath": "\/images\/extra\/marina-painting.jpg",
+		"outputAbbreviatedPath": "\/images\/extra\/marina-painting.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/extra\/marina-ville.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54037,
+		"inputAbbreviatedPath": "\/images\/extra\/marina-ville.jpg",
+		"outputAbbreviatedPath": "\/images\/extra\/marina-ville.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/extra\/outing-club.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 576617,
+		"inputAbbreviatedPath": "\/images\/extra\/outing-club.jpg",
+		"outputAbbreviatedPath": "\/images\/extra\/outing-club.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/extra\/riff-raft.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 253460,
+		"inputAbbreviatedPath": "\/images\/extra\/riff-raft.jpg",
+		"outputAbbreviatedPath": "\/images\/extra\/riff-raft.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/extra\/strollingoftheheifers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156727,
+		"inputAbbreviatedPath": "\/images\/extra\/strollingoftheheifers.png",
+		"outputAbbreviatedPath": "\/images\/extra\/strollingoftheheifers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/extra\/wtsa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37736,
+		"inputAbbreviatedPath": "\/images\/extra\/wtsa.jpg",
+		"outputAbbreviatedPath": "\/images\/extra\/wtsa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/fire.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56303,
+		"inputAbbreviatedPath": "\/images\/fire.jpg",
+		"outputAbbreviatedPath": "\/images\/fire.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/gallery-sign.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -341,6 +440,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/hike.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152311,
+		"inputAbbreviatedPath": "\/images\/hike.jpg",
+		"outputAbbreviatedPath": "\/images\/hike.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/Hobbs.jpg": {
 		"fileType": 16384,
@@ -441,6 +551,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/inside.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189956,
+		"inputAbbreviatedPath": "\/images\/inside.jpg",
+		"outputAbbreviatedPath": "\/images\/inside.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/kayak-sign.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -496,16 +617,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/images\/logo\/HamptonINN.png": {
+	"\/images\/logo\/Hampton-inn.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18763,
-		"inputAbbreviatedPath": "\/images\/logo\/HamptonINN.png",
-		"outputAbbreviatedPath": "\/images\/logo\/HamptonINN.png",
+		"initialSize": 16668,
+		"inputAbbreviatedPath": "\/images\/logo\/Hampton-inn.png",
+		"outputAbbreviatedPath": "\/images\/logo\/Hampton-inn.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/logo\/marinalogo.png": {
 		"fileType": 32768,
@@ -562,6 +683,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/logo\/west-river-inn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23829,
+		"inputAbbreviatedPath": "\/images\/logo\/west-river-inn.png",
+		"outputAbbreviatedPath": "\/images\/logo\/west-river-inn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo\/westriverINN.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -572,6 +704,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/logo\/wtsa-radio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5101,
+		"inputAbbreviatedPath": "\/images\/logo\/wtsa-radio.png",
+		"outputAbbreviatedPath": "\/images\/logo\/wtsa-radio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/marinalayerpurple1.png": {
 		"fileType": 32768,
@@ -705,6 +848,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/old-marina.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70440,
+		"inputAbbreviatedPath": "\/images\/old-marina.jpg",
+		"outputAbbreviatedPath": "\/images\/old-marina.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/openmic.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -715,6 +869,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/plunge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29601,
+		"inputAbbreviatedPath": "\/images\/plunge.jpg",
+		"outputAbbreviatedPath": "\/images\/plunge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/project-cow.jpg": {
 		"fileType": 16384,
@@ -748,6 +913,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/the-marina.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35618,
+		"inputAbbreviatedPath": "\/images\/the-marina.jpg",
+		"outputAbbreviatedPath": "\/images\/the-marina.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/trail-modal-background.jpg": {
 		"fileType": 16384,
@@ -803,6 +979,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/wrt.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13272e+06,
+		"inputAbbreviatedPath": "\/images\/wrt.jpg",
+		"outputAbbreviatedPath": "\/images\/wrt.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -889,6 +1076,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/mobile.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mobile.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
 		"enableFootnoteSupport": 0,

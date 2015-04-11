@@ -411,6 +411,28 @@ div.button-trail {
 }
 
 
+.button-radio {
+		background-image: url('../images/logo/wtsa-radio.png');
+		background-size: 100%;
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 100px;
+	  top: -74px;
+  position: relative;
+  left: -32px;
+	
+}
+
+.radio-text {
+	  text-align: center;
+  position: relative;
+  top: 120px;
+  background-color: rgb(116, 61, 151);
+  color: rgb(1, 1, 1);
+  border-radius: 11px;
+  }
+
+
 .social-icons:hover {
 	border: 2px solid transparent;
 
@@ -698,7 +720,7 @@ div.dropup li a:hover{
 .toggle-button{
 	position: absolute;
 	top:500px;
-	left:2000px;
+	left:2050px;
 	font-family: ('Open Sans');
 	font-size:1.6em;
 	filter: drop-shadow(0 0 6px #2ED8F7);
