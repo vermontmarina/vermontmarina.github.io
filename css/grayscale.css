@@ -1,4 +1,4 @@
-/*!
+addr/*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -113,7 +113,7 @@ a:focus {
     outline: 0;
 }
 address {
-font-size: 2em;
+font-size: 1em;
 font-family: sans-serif;
 }
 
