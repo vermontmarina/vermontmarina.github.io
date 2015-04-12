@@ -45,8 +45,8 @@ function init() {
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
-        scrollwheel: false,
-        draggable: false,
+        scrollwheel: true,
+        draggable: true,
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -125,7 +125,7 @@ function init() {
         "elementType": "all",
         "stylers": [
             {
-                "color": "#46bcec"
+                "color": "#38DDEA"
             },
             {
                 "visibility": "on"
@@ -145,7 +145,7 @@ function init() {
     var map = new google.maps.Map(mapElement, mapOptions);
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var image = 'img/map-marker.png';
+    var image = 'images/dragonblack-map.png';
     var myLatLng = new google.maps.LatLng(42.867795, -72.558137);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
