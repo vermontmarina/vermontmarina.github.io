@@ -63,6 +63,7 @@ div.wrapper{
 
 
 img.local {
+	display:inline-block;
 
 }
 
@@ -422,7 +423,13 @@ div.button-trail {
   left: -32px;
 	
 }
+.arrow2 {
 
+      position: absolute;
+        top: 700px;
+        left: 87%;
+        font-size: 1.5em;
+      }
 .radio-text {
 	  text-align: center;
   position: relative;
@@ -430,6 +437,7 @@ div.button-trail {
   background-color: rgb(116, 61, 151);
   color: rgb(1, 1, 1);
   border-radius: 11px;
+    opacity: .9;
   }
 
 
@@ -715,11 +723,12 @@ div.dropup li a:hover{
 	height:100%;
 	padding:10px;
 	z-index: 30;
-	overflow-y: scroll; 
+	overflow-y: scroll;
+	opacity: .9;
 }
 .toggle-button{
 	position: absolute;
-	top:500px;
+	top: 428px;
 	left:2050px;
 	font-family: ('Open Sans');
 	font-size:1.6em;
@@ -727,6 +736,7 @@ div.dropup li a:hover{
 	-moz-filter: drop-shadow(0 0 6px #2ED8F7);
 	-o-filter: drop-shadow(0 0 6px #2ED8F7);
 	-webkit-filter: drop-shadow(0 0 6px #2ED8F7);
+	  color: white;
 }
 
 .right-nav a{
@@ -938,5 +948,10 @@ left:150px;
     display:block;
 }
 
+@media(max-width:700px) {
+	.arrow2 {
+		display: none;
+	}
 
+}
 
