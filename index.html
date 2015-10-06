@@ -886,13 +886,24 @@ $(function() {
 <script>
   $(document).ready(function () {
    
-    $('#recent').pongstgrm({
+    $('#selector').pongstgrm({
       accessId:     'e0a9b36d03fb4761806ae2a2113e458a',
       accessToken:  'c9c4d5b3a9e24a599ed90e8ddb1a0a3c',
+
+    });
+   
+  });
+</script>
+<script>
+  $(document).ready(function () {
+   
+    $('#recent').pongstgrm({
+
         show:             'recent',
   picture_size:     '64',                  // sets profile picture to 64x64 pixels, no need to add px
   profile_bg_img:   'https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11248833_1477366579235721_1001900801_a.jpg', // image url
   profile_bg_color: '#d9534f' 
+  
     });
    
   });
