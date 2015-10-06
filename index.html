@@ -35,6 +35,7 @@
     <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/pongstagr.am.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -612,6 +613,7 @@
           </div>
         </div>
       </div>
+     <script type="text/javascript">$('#selector').pongstgrm({ show: 'recent' });</script> 
 <!-- Scroll button-->
       <div id="arrow-button"> 
         <a class="arrowtext animate-btn">&nbsp;Click &nbsp;Here
@@ -876,5 +878,19 @@ $(function() {
         })
       //]]>
     </script>
+
+ 
+<!-- Initialize ponstagram instagram plugin -->
+<script src="js/pongstagram.min.js"></script>
+<script>
+  $(document).ready(function () {
+   
+    $('#selector').pongstgrm({
+      accessId:     'e0a9b36d03fb4761806ae2a2113e458a',
+      accessToken:  'c9c4d5b3a9e24a599ed90e8ddb1a0a3c'
+    });
+   
+  });
+</script>
   </body>
 </html>
