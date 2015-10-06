@@ -9,6 +9,14 @@ html{
 	height:100%;
 }
 
+#recent{
+	    height: 500px;
+    /* : ; */
+    border: 5px solid #9E9ED4;
+    width: 500px;
+
+}
+
 body{
 	position: absolute;
     background-image: url('../images/newblueskylayer6.jpg');
