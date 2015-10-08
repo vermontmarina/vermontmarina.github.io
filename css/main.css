@@ -348,9 +348,17 @@ border: 4px solid greenyellow;
 }
 
 .you-tube-modal {
-  background-color: #FF6C5F;
+  background-color: transparent;
 }
-
+#you-tubeTitle {
+	    background-color: #7EBAEE;
+    padding: 15px 15px 2px 41px;
+    opacity: 0.9;
+    color: white;
+    font-weight: 900;
+    font-size: 23px;
+    border-radius: 57px 4px 20px 11px
+}
 .you-tube-player {
   width:100%;
   min-height: 300px;
@@ -471,6 +479,14 @@ div.facebook-button {
 }
 div.youtube-button {
 	background-image: url('../images/icons/youtube.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:  3.5em;
+	width:  3.5em;
+
+}
+div.insta-button {
+	background-image: url('../images/icons/insta.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height:  3.5em;
@@ -964,7 +980,7 @@ left:150px;
 
 }
 
-#tags {
+#tags-v1 {
     padding: 9px;
     border-radius: 3px;
     width: 50%;
@@ -978,4 +994,43 @@ left:150px;
     border-radius: 76px 26px 106px 10px;
 }
 
+#tags-v2 {
+	    padding: 9px;
+    border-radius: 3px;
+    width: 50%;
+    position: absolute;
+    left: 901px;
+    top: 239px;
+    z-index: -5;
+    max-height: 285px;
+
+
+    background-color: rgba(127, 255, 212, 0.42);
+    overflow: auto;
+    border-radius: 76px 26px 106px 10px;
+    -webkit-box-shadow: -27px 39px 43px -7px rgba(99,197,233,1);
+-moz-box-shadow: -27px 39px 43px -7px rgba(99,197,233,1);
+box-shadow: -27px 39px 43px -7px rgba(99,197,233,1);
+
+}
+#insta-close {
+	    margin-top: -2px;
+    opacity: 1;
+    z-index: 5;
+    color: red;
+    font-size: 50px;
+    position: absolute;
+}
+#tags {
+	    padding: 9px;
+
+    background-color: rgba(127, 255, 212, 0.26);
+ 
+    border-radius: 76px 26px 106px 10px;
+}
+
+.you-tube-modal {
+	    max-width: 960px;
+    max-height: 72px;
+}
 

@@ -41,7 +41,7 @@
     <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/pongstagr.am.css">
+        <link rel="stylesheet" href="css/pongstagr.am.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -62,7 +62,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<!--   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> -->
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
   </head>
   <body id="doScroll" class="menu">
   <!-- Google Tag Manager -->
@@ -82,6 +86,21 @@
       <div class="animated rotateInUpRight" id="status">&nbsp;</div>
     </div>
 <!-- <modals> -->
+<!-- instagrtam-->
+<!--     <div class="modal fade modal-insta" tabindex="-1" role="dialog"  aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content insta-modal">
+         <div class="photo-container" id="insta">
+          <div class="container">
+       
+            
+                <span class="close"></span>
+        </div>
+              
+        </div>
+      </div>
+    </div>
+  </div> -->
 <!-- photos -->
     <div class="modal fade modal-photos" tabindex="-1" role="dialog"  aria-hidden="true">
       <div class="modal-dialog modal-lg">
@@ -576,23 +595,26 @@
         </div>
       </div>
     </div>
-<!-- You-tube modal w google You-tube embed 
+<!-- You-tube modal w google You-tube embed  -->
     <div class="modal fade" id="you-tube" tabindex="-1" role="dialog" aria-labelledby="you-tube" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content you-tube-modal">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="you-tubeTitle">Marina Videos! <img class="dragonlogo animated pulse pull-right" src="images/dragonblack.png"></h4>
+            <button type="button" class="close"  id="insta-close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="you-tubeTitle">Marina Photos! <img class="dragonlogo animated pulse pull-right" src="images/dragonblack.png"></h4>
           </div>
           <div class="modal-body" class="embed-responsive embed-responsive-4by3">
-            <iframe class="animated pulse center-block you-tube-player" src="http://www.youtube.com/embed/4WhlsRvKtt0?list=PLrImkXjL1hSsfz4QrL2M-PmzvyjbPqxpy&amp;controls=0">
-            </iframe>
+           <div id="tags" class="well well-sm"></div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 <!-- bottom of Modals -->
-
+<script type="text/javascript">
+    $(window).load(function(){
+        $('#you-tube').modal('show');
+    });
+</script>
 <!-- Wrapper -->
     <div class= "wrapper ">
 <!-- logo components -->
@@ -636,6 +658,11 @@
           <div class="animate-youtube box-b social-icons youtube-button">
           </div>
         </a>
+
+        <a href="" data-toggle="modal" data-target="#you-tube"class="roll-link">
+          <div class="social-icons insta-button"></div>
+        </a>
+
         <a href="http://twitter.com/vermontmarina" target="_blank">
           <div class="social-icons twitter-button">
           </div>
@@ -768,7 +795,7 @@
       </nav>
     </div>
        
-        <div class="dom"><div id="tags" class="well well-sm"></div></div>
+     >
 <!-- Scroll button -->
     <script>
         $( document ).ready(function() {
@@ -887,12 +914,6 @@ $(function() {
         })
       //]]>
     </script>
-
-
-
-
-
-
 
 
 
