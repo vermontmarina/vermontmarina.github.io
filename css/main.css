@@ -971,10 +971,11 @@ left:150px;
     position: absolute;
     left: 1100px;
     top: 40px;
-    z-index: -3;
+    z-index: -5;
     max-height: 500px;
     background-color: rgba(127, 255, 212, 0.42);
     overflow: auto;
     border-radius: 76px 26px 106px 10px;
 }
+
 
