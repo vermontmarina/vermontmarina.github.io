@@ -9,13 +9,6 @@ html{
 	height:100%;
 }
 
-#recent{
-	    height: 500px;
-    /* : ; */
-    border: 5px solid #9E9ED4;
-    width: 500px;
-
-}
 
 body{
 	position: absolute;
@@ -961,5 +954,27 @@ left:150px;
 		display: none;
 	}
 
+}
+
+#recent{
+	    height: 500px;
+    /* : ; */
+    border: 5px solid #9E9ED4;
+    width: 500px;
+
+}
+
+#tags {
+    padding: 9px;
+    border-radius: 3px;
+    width: 50%;
+    position: absolute;
+    left: 1100px;
+    top: 40px;
+    z-index: -3;
+    max-height: 500px;
+    background-color: rgba(127, 255, 212, 0.42);
+    overflow: auto;
+    border-radius: 76px 26px 106px 10px;
 }
 
