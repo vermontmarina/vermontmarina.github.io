@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -106,19 +107,19 @@
       <div class="modal-dialog modal-lg">
         <div class="modal-content photo-modal">
          <div class="photo-container" id="container">
-            <div class="gallery">
-                <a tabindex="1"><img src="images/currated-photos/sunset.jpg" class="lazy" alt="sunset" /></a>
-                <a tabindex="1"><img src="images/currated-photos/inside.jpg" class="lazy" alt="inside shot" /></a>
-                <a tabindex="1"><img src="images/currated-photos/dragon-night.jpg" class="lazy" alt="dragon in water" /></a>
-                <a tabindex="1"><img src="images/currated-photos/party.jpg" class="lazy" alt="party" /></a>
-                <a tabindex="1"><img src="images/currated-photos/night-water.jpg" class="lazy" alt="night water" /></a>
-                <a tabindex="1"><img src="images/currated-photos/deck2.jpg" class="lazy" alt="deck" /></a>
-                <a tabindex="1"><img src="images/currated-photos/music-inside.jpg" class="lazy" alt="music inside" /></a>
-                <a tabindex="1"><img src="images/currated-photos/night-water2.jpg" class="lazy" alt="night water" /></a>
-                <a tabindex="1"><img src="images/currated-photos/music.jpg" class="lazy" alt="live music" /></a>
-                <a tabindex="1"><img src="images/currated-photos/boats.jpg" class="lazy" alt="boats" /></a>
-                <a tabindex="1"><img src="images/currated-photos/summer.jpg" class="lazy" alt="summer" /></a>
-                <a tabindex="1"><img src="images/currated-photos/boats2.jpg" class="lazy" alt="boats" /></a>
+            <div id="lazyload1" class="gallery">
+                <a tabindex="1"><img data-original="images/currated-photos/sunset.jpg" class="lazy" alt="sunset" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/inside.jpg" class="lazy" alt="inside shot" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/dragon-night.jpg" class="lazy" alt="dragon in water" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/party.jpg" class="lazy" alt="party" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/night-water.jpg" class="lazy" alt="night water" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/deck2.jpg" class="lazy" alt="deck" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/music-inside.jpg" class="lazy" alt="music inside" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/night-water2.jpg" class="lazy" alt="night water" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/music.jpg" class="lazy" alt="live music" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/boats.jpg" class="lazy" alt="boats" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/summer.jpg" class="lazy" alt="summer" /></a>
+                <a tabindex="1"><img data-original="images/currated-photos/boats2.jpg" class="lazy" alt="boats" /></a>
                 <span class="close"></span>
             </div>
           </div>        
@@ -131,7 +132,7 @@
         <div class="modal-content calender-modal-background">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <img class="dragonlogo center-block animated flipInX" src="images/dragonblack.png" alt="black dragon spinner" >
+            <img class="dragonlogo center-block animated flipInX lazy6" data-original="images/dragonblack.png" alt="black dragon spinner" >
           </div>
           <div class="panel-group" id="accordion">
 <!-- calendar in calender-modal -->
@@ -163,7 +164,7 @@
                   <div class="row">
                     <div class="music-left col-sm-6 col-md-4 music-info-style2 pull-left">
                       <div class="thumbnail">
-                        <img src="images/Hobbs.jpg" class="lazy" alt="photo of Draa Hobbs">
+                        <img data-original="images/Hobbs.jpg" class="lazy6" alt="photo of Draa Hobbs">
                         <div class=" animated flash caption tect-center music-info-style">
                           <h3>EVERY <u>SUNDAY</u> BRUNCH</h3>
                           <h4>
@@ -179,7 +180,7 @@
                     </div>
                     <div class="music-right col-sm-6 col-md-4 music-info-style pull-right">
                       <div class="thumbnail animated tada">
-                        <img src="images/openmic.jpg" class="lazy" alt="photo of Kevin Parry">
+                        <img data-original="images/openmic.jpg" class="lazy6" alt="photo of Kevin Parry">
                         <div class="caption text-center music-one-background">
                           <h3>OPEN MIC EVERY <u>THURSDAY</u> 7-10pm with KEVIN PARRY</h3>
                           <h4>
@@ -191,7 +192,7 @@
                     </div>
                     <div class="music-right col-sm-6 col-md-4 music-info-style pull-right" style="background-color:rgb(50, 194, 161);">
                       <div class="thumbnail animated tada">
-                        <img src="images/art-night.jpg" class="lazy" alt="photo of art night: people painting">
+                        <img data-original="images/art-night.jpg" class="lazy6" alt="photo of art night: people painting">
                         <div class="caption text-center music-one-background">
                           <h3>Ask about regular Art Nights!</h3>
                           <h4>
@@ -202,7 +203,7 @@
                     </div>
                     <div class="music-right col-sm-6 col-md-4 music-info-style pull-left" style="background-color: rgb(57, 146, 200);">
                       <div class="thumbnail animated tada">
-                        <img src="images/plunge.jpg" class="lazy" alt="photo of the plunge:  people jumping into the river on a boat">
+                        <img data-original="images/plunge.jpg" class="lazy6" alt="photo of the plunge:  people jumping into the river on a boat">
                         <div class="caption text-center music-one-background">
                           <h3>The Plunge for Charity</h3>
                           <h4>
@@ -213,7 +214,7 @@
                     </div>  
                     <div class="music-right col-sm-6 col-md-4 music-info-style pull-left" style="  background-color: rgb(255, 210, 157);">
                       <div class="thumbnail animated tada">
-                        <img src="images/extra/strollingoftheheifers.png" class="lazy" alt="cows strolling">
+                        <img data-original="images/extra/strollingoftheheifers.png" class="lazy6" alt="cows strolling">
                         <div class="caption text-center music-one-background">
                           <h3>Strolling of the Heifers</h3>
                           <h4>
@@ -223,8 +224,8 @@
                     </div>
                     <div class="music-right col-sm-6 col-md-4 music-info-style pull-right" style="background-color: rgb(240, 53, 124);">
                       <div class="thumbnail animated tada">
-                        <img src="images/extra/marina-ville.jpg" class="lazy" alt="the wtsa radio guys">
-                        <img src="images/extra/wtsa.jpg" class="lazy" alt="the wtsa radio guys">
+                        <img data-original="images/extra/marina-ville.jpg" class="lazy6" alt="the wtsa radio guys">
+                        <img data-original="images/extra/wtsa.jpg" class="lazy6" alt="the wtsa radio guys">
                         <div class="caption text-center music-one-background">
                           <h3>Marina-ville<br><u>SUMMER 2015</u></h3>
                           <h4>
@@ -235,7 +236,7 @@
                     </div>
                      <div class="music-right col-sm-6 col-md-4 music-info-style pull-right" style="background-color: aquamarine;">
                       <div class="thumbnail animated tada">
-                        <img src="images/extra/gallery-walk.jpg" class="lazy" alt="gallery walk logo">
+                        <img data-original="images/extra/gallery-walk.jpg" class="lazy6" alt="gallery walk logo">
                         <div class="caption text-center music-one-background">
                         <a href="http://www.gallerywalk.org/">
                           <h3><u>Gallery Walk 2015!</u></h3>
@@ -260,7 +261,7 @@
         <div class="modal-content menu-modal-background">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <img class="dragonlogo center-block animated fadeInLeft" alt="dragon logo" src="images/dragonblack.png">
+            <img class="dragonlogo center-block animated fadeInLeft lazy6" alt="dragon logo" data-original="images/dragonblack.png">
           </div>
           <div class="modal-body">
             <ul class="nav nav-tabs" role="tablist" id="myTab">
@@ -273,14 +274,14 @@
               <li class="menu-tab"><a href="#brunch" role="tab" data-toggle="tab">Brunch</a></li>
               <li class="menu-tab"><a href="#page7" role="tab" data-toggle="tab">Wine List</a></li>
             </ul>
-            <div class="tab-content" style="max-height:500px;overflow-y:auto;"> 
-              <div class="tab-pane active" id="page1"><img src="images/menu/page1.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page2"><img src="images/menu/page2.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page3"><img src="images/menu/page3.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page4"><img src="images/menu/page4.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page5"><img src="images/menu/page5.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page6"><img src="images/menu/page6.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
-               <div class="tab-pane animated fadeInDown" id="brunch"><img src="images/menu/brunch.jpg" alt="menu page"  class="lazy"style="height:100%; width:100%;"></div>
+            <div id="lazyload2"  class="tab-content" style="max-height:500px;overflow-y:auto;"> 
+              <div class="tab-pane active" id="page1"><img data-original="images/menu/page1.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page2"><img data-original="images/menu/page2.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page3"><img data-original="images/menu/page3.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page4"><img data-original="images/menu/page4.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page5"><img data-original="images/menu/page5.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page6"><img data-original="images/menu/page6.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+               <div class="tab-pane animated fadeInDown" id="brunch"><img data-original="images/menu/brunch.jpg" alt="menu page"  class="lazy"style="height:100%; width:100%;"></div>
               <div class="tab-pane" id="page7">
                 <ul class="list-group text-center">
                   <li class="list-group-item list-group-item-info "><em class="pull-left">
@@ -331,7 +332,7 @@
         <div class="modal-content info-modal-background">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <img class="dragonlogo center-block animated pulse"  alt="dragon logo" src="images/dragonblack.png" >
+            <img class="dragonlogo center-block animated pulse lazy6"  alt="dragon logo" data-original="images/dragonblack.png" >
           </div>
         <div class="panel-group" id="info-accordion">
 <!-- Contact Us content in Information-modal -->
@@ -412,7 +413,8 @@
                 <div id="TA_selfserveprop79" style="width:30%; left:35%; position:relative;"class="TA_selfserveprop">
                 <ul id="xUjrFs" class="TA_links s4wCngYftJV">
                 <li id="kSgFYiO" class="oISxuGKjXK7">
-                <a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
+                <a target="_blank" href="http://www.tripadvisor.com/"><img class=
+                  "lazy6" data-original="http://www.tripadvisor.com/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
                 </li>
                 </ul>
                 </div>
@@ -444,7 +446,7 @@
                     <a href="https://www.airbnb.com/rooms/655446" target="_blank">Sweet Pond Maple Farm</a> <br>
                     <a href="https://www.vermontcountrydeli.com/ordereze/default.aspx" target="_blank">Vermont Country Deli</a> <br> <br>
                     <a href="http://www.windhamsolidwaste.org/index.php/programs-resources" target="_blank">
-                      <img src="images/project-cow.jpg"  alt="project cow logo" class="img-responsive center-block" width="80%">
+                      <img data-original="images/project-cow.jpg"  alt="project cow logo " class="img-responsive center-block lazy6" width="80%">
                     </a><br>
                   </div>
                   <h4 class="pull-right">-The Marina Restaurant in Brattleboro, Vermont </h4>
@@ -493,8 +495,8 @@
                 </h4>
               </div>
               <div id="collapsetrailTwo" class="panel-collapse collapse">
-                <div class="panel-body trail-modal-body" style="max-height:500px;overflow-y:auto;">
-                  <img src="images/west-river-trail.jpg"  alt="West River Trail" class="lazy west-river-trail-img img-responsive center-block" style="width:90%;height:90%;">
+                <div id="lazyload3"class="panel-body trail-modal-body" style="max-height:500px;overflow-y:auto;">
+                  <img data-original="images/west-river-trail.jpg"  alt="West River Trail" class="lazy3 west-river-trail-img img-responsive center-block" style="width:90%;height:90%;">
                 </div>
               </div>
             </div>
@@ -542,10 +544,10 @@
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             <h4 class="modal-title" id="galleryLabel">The Marina's Gallery!</h4>
           </div>
-          <div class="modal-body text-center">
+          <div class="modal-body text-center" id="lazyload4">
             <h3>Example work and previous artists</h3>
-            <img src="images/shell-motel.jpg" class="animated pulse art img-responsive pull-left" alt="example art" style="width: 45%; height: 45%;">
-             <img src="images/art2.jpg" class="animated pulse art art-1st img-responsive center-block"  alt="example art" style="width: 50%; height: 50%;">
+            <img data-original="images/shell-motel.jpg" class="lazy4 animated pulse art img-responsive pull-left" alt="example art" style="width: 45%; height: 45%;">
+             <img data-original="images/art2.jpg" class="lazy4 animated pulse art art-1st img-responsive center-block"  alt="example art" style="width: 50%; height: 50%;">
             <h4>
               <a href="http://www.tiffanyheerema.com/"target="_blank">Tiffany Heerema</a><br>
               <a href="http://www.picardart.com" target="blank"> Janet Picard </a><br>
@@ -555,8 +557,8 @@
               <a href="http://www.henry-ireland.artistwebsites.com" target="blank">Henry Ireland</a>
               
             </h4>
-            <img src="images/art1.jpg" class="animated pulse art img-responsive pull-right" alt="example art" style="width: 45%; height: 45%;">
-            <img src="images/art3.jpg" class="animated pulse art img-responsive pull-left" alt="example art" style="width: 45%; height: 45%;">
+            <img data-original="images/art1.jpg" class="lazy4 animated pulse art img-responsive pull-right" alt="example art" style="width: 45%; height: 45%;">
+            <img data-original="images/art3.jpg" class="lazy4 animated pulse art img-responsive pull-left" alt="example art" style="width: 45%; height: 45%;">
           </div>
           <div class="modal-footer">
           </div>
@@ -566,31 +568,33 @@
 <!-- Modal trip advisor -->
     <div class="modal fade" id="trip-advisor" tabindex="-1" role="dialog"  aria-hidden="true">
       <div class="modal-dialog">
-        <div class="modal-content trip-modal-body">
+        <div class="modal-content trip-modal-body" id="lazyload5">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             <h4 class="modal-title" id="TripLabel">Local Attractions</h4>
           </div>
           <div class="modal-body">
           <a  href="http://vermontlife.com/" target="_blank">
-            <img src="images/logo/vt-life.gif" alt="vt life" class="local chamber animated rubberBand img-responsive center-block"> 
+            <img data-original="images/logo/vt-life.gif" alt="vt life" class="lazy5 local chamber animated rubberBand img-responsive center-block"> 
           </a>
           <a  href="http://brattleborochamber.org/" target="_blank">
-            <img src="images/logo/chamber-logo.png" alt="chamber logo" class="local chamber animated rubberBand img-responsive center-block"> 
+            <img data-original="images/logo/chamber-logo.png" alt="chamber logo" class="lazy5 local chamber animated rubberBand img-responsive center-block"> 
           </a>
           <a  href="http://www.qualityinn.com/hotel-brattleboro-vermont-VT027" target="_blank">
-            <img src="images/logo/qualityinn.png" alt="quality Inn logo" class="local animated rubberBand img-responsive center-block"> 
+            <img data-original="images/logo/qualityinn.png" alt="quality Inn logo" class="lazy5 local animated rubberBand img-responsive center-block"> 
           </a>
           <a  href="http://westriverinn.com/" target="_blank">
-            <img src="images/logo/west-river-inn.png" alt="West River Inn logo" class="local chamber animated rubberBand img-responsive center-block"> 
+            <img data-original="images/logo/west-river-inn.png" alt="West River Inn logo" class="lazy5 local chamber animated rubberBand img-responsive center-block"> 
           </a>
           <a  href="http://hamptonbrattleboro.com/" target="_blank">
-            <img src="images/logo/hampton-inn.png" alt="Hampton Inn" class="local chamber animated rubberBand img-responsive center-block"> 
+            <img data-original="images/logo/hampton-inn.png" alt="Hampton Inn" class="lazy5 local chamber animated rubberBand img-responsive center-block"> 
           </a>
           <a  href="http://fortyputneyroad.com" target="_blank">
-            <img src="images/logo/40putneyroad.png" alt="40 putney road logo" class="local chamber animated rubberBand img-responsive center-block"> 
+            <img data-original="images/logo/40putneyroad.png" alt="40 putney road logo" class="lazy5 local chamber animated rubberBand img-responsive center-block"> 
           </a>
-          <a href="http://thehall.net/business/the-marina0119/" target="_blank"><img src="http://thehall.net/wp-content/themes/profxd/images/logo.png" alt="the Hall" class="local animated rubberBand img-responsive center-block" /></a>
+          <a href="http://thehall.net/business/the-marina0119/" target="_blank">
+            <img data-original="http://thehall.net/wp-content/themes/profxd/images/logo.png" alt="the Hall" class="lazy5 local animated rubberBand img-responsive center-block" />
+          </a>
           </div>
         </div>
       </div>
@@ -600,7 +604,7 @@
       <div class="modal-dialog">
         <div class="modal-content you-tube-modal">
           <div class="modal-header">
-            <button type="button" class="close"  id="insta-close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <button type="button" class="close"  id="insta-close" id="arrow-button" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             <h4 class="modal-title" id="you-tubeTitle">Marina Photos! <img class="dragonlogo animated pulse pull-right" src="images/dragonblack.png"></h4>
           </div>
           <div class="modal-body" class="embed-responsive embed-responsive-4by3">
@@ -645,7 +649,7 @@
 <!-- Scroll button-->
       <div id="arrow-button"> 
         <a class="arrowtext animate-btn">&nbsp;Click &nbsp;Here
-          <img  class="fish-btn animate-me  box-a"src="images/logo/fish.png">
+          <img  class="fish-btn animate-me  box-a" src="images/logo/fish.png">
         </a>
       </div>
 <!-- Buttons: for modal -Calender -Menu- Info -->
@@ -707,7 +711,7 @@
           <div class="animate-this animated bounceInLeft button-icon button-trail" type="button" data-toggle="modal" data-target="#trail">
           </div>
         </a>
-         <a href="http://www.wtsa.net/" >
+         <a href="http://www.wtsa.net/" target="_blank">
           <div class="animate-this animated bounceInLeft button-icon button-radio" type="button">
           <h4 class="radio-text">Our Local Radio: <br>WTSA -96.7FM</h4>
           </div>
@@ -788,7 +792,7 @@
             </div>
           </a><br>
           <div style="width:140px; overflow: hidden; position: relative; left: 25px;">
-            <div id="TA_virtualsticker641" class="TA_virtualsticker"><ul id="wL54s4aC" class="TA_links MnXcgtzO"><li id="eNtLYbQPU" class="OCuGdKoDcCn"><a target="_blank" href="http://www.tripadvisor.com/"><img src="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_sticker_logo_88x55-18961-2.png" alt="TripAdvisor"/></a></li></ul></div><script src="http://www.jscache.com/wejs?wtype=virtualsticker&uniq=641&lang=en_US&locationId=2259865&display_version=2"></script>
+            <div id="TA_virtualsticker641" class="TA_virtualsticker"><ul id="wL54s4aC" class="TA_links MnXcgtzO"><li id="eNtLYbQPU" class="OCuGdKoDcCn"><a target="_blank" href="http://www.tripadvisor.com/"><img class="lazy6" data-original="http://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_sticker_logo_88x55-18961-2.png" alt="TripAdvisor"/></a></li></ul></div><script src="http://www.jscache.com/wejs?wtype=virtualsticker&uniq=641&lang=en_US&locationId=2259865&display_version=2"></script>
           </div>
           <br>
         </div>
@@ -832,6 +836,10 @@
       });
 
        });//end ready
+
+
+
+   
     (function() {
       var body = $('body');
       $('.menu-toggle').bind('click', function() {
@@ -896,9 +904,93 @@ window.addEventListener('mousedown', function(e){ curDown = true; curYPos = e.pa
 window.addEventListener('mouseup', function(e){ curDown = false; });
 
 
-$(function() {
-    $("img.lazy").lazyload();
+
+
+$.getScript('//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js',function(){
+
+$('#lazyload1 .lazy').lazyload({
+
 });
+  $('#lazyload2 .lazy').lazyload({
+
+});
+    $('#lazyload3 .lazy3').lazyload({
+
+});
+    $('#lazyload4 .lazy4').lazyload({
+
+});
+        $('#lazyload5 .lazy5').lazyload({
+
+});
+                $('#doScroll .lazy6').lazyload({
+
+});
+
+});
+
+$(function() {
+    $("img.lazy").lazyload({
+        event : "sporty"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy").trigger("sporty")
+    }, 5000);
+});
+
+
+
+$(function() {
+    $("img.lazy3").lazyload({
+        event : "sporty2"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy3").trigger("sporty2")
+    }, 8000);
+});
+
+
+$(function() {
+    $("img.lazy4").lazyload({
+        event : "sporty4"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy4").trigger("sporty4")
+    }, 10000);
+});
+$(function() {
+    $("img.lazy5").lazyload({
+        event : "sporty5"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy5").trigger("sporty5")
+    }, 11000);
+});
+
+$(function() {
+    $("img.lazy6").lazyload({
+        event : "sporty6"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy6").trigger("sporty6")
+    }, 4000);
+});
+
     </script>
 
   <script src="js/bootstrap.min.js"></script>
