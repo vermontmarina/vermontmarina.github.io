@@ -21,6 +21,97 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+    $.getScript('//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js',function(){
+
+$('#lazyload1 .lazy').lazyload({
+
+});
+  $('#lazyload2 .lazy').lazyload({
+
+});
+    $('#lazyload3 .lazy3').lazyload({
+
+});
+    $('#lazyload4 .lazy4').lazyload({
+
+});
+        $('#lazyload5 .lazy5').lazyload({
+
+});
+                $('#doScroll .lazy6').lazyload({
+
+});
+
+});
+
+$(function() {
+    $("img.lazy").lazyload({
+        event : "sporty"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy").trigger("sporty")
+    }, 1000);
+});
+
+
+
+$(function() {
+    $("img.lazy3").lazyload({
+        event : "sporty2"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy3").trigger("sporty2")
+    }, 2000);
+});
+
+
+$(function() {
+    $("img.lazy4").lazyload({
+        event : "sporty4"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy4").trigger("sporty4")
+    }, 3000);
+});
+$(function() {
+    $("img.lazy5").lazyload({
+        event : "sporty5"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy5").trigger("sporty5")
+    }, 4000);
+});
+
+$(function() {
+    $("img.lazy6").lazyload({
+        event : "sporty6"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy6").trigger("sporty6")
+    }, 5000);
+});
+
+$(document).ready(function () {
+    </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,9 +120,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="background-color: #38DDEA;">
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -140,12 +233,12 @@
               <li class="menu-tab"><a href="#page7" role="tab" data-toggle="tab">Wine List</a></li>
             </ul>
             <div class="tab-content" style="max-height:500px;overflow-y:auto;"> 
-              <div class="tab-pane active" id="page1"><img src="images/menu/page1.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane active" id="page1"><img src="images/menu/page1.jpg" alt="menu page" class="center-block " style="height:100%; width:100%;"></div>
               <div class="tab-pane animated fadeInDown" id="page2"><img src="images/menu/page2.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page3"><img src="images/menu/page3.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page4"><img src="images/menu/page4.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page5"><img src="images/menu/page5.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page6"><img src="images/menu/page6.jpg" alt="menu page" class="center-block lazy" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page3"><img src="images/menu/page3.jpg" alt="menu page" class="center-block lazy3" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page4"><img src="images/menu/page4.jpg" alt="menu page" class="center-block lazy4" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page5"><img src="images/menu/page5.jpg" alt="menu page" class="center-block lazy5" style="height:100%; width:100%;"></div>
+              <div class="tab-pane animated fadeInDown" id="page6"><img src="images/menu/page6.jpg" alt="menu page" class="center-block lazy6" style="height:100%; width:100%;"></div>
                <div class="tab-pane animated fadeInDown" id="brunch"><img src="images/menu/brunch.jpg" alt="menu page"  class="lazy"style="height:100%; width:100%;"></div>
               <div class="tab-pane" id="page7">
                 <ul class="list-group text-center">
