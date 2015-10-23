@@ -22,7 +22,6 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
 
     <script type="text/javascript">
 
@@ -46,15 +45,9 @@ $('#lazyload1 .lazy1').lazyload({
                 $('#lazyload6 .lazy6').lazyload({
 
 });
-                                $('#lazyload7 .lazy7').lazyload({
 
 });
 
-
-});
-
-
-// start on second page
 $(function() {
     $("img.lazy1").lazyload({
         event : "sporty"
@@ -91,7 +84,7 @@ $(function() {
 $(window).bind("load", function() {
     var timeout = setTimeout(function() {
         $("img.lazy3").trigger("sporty4")
-    }, 7500);
+    }, 8000);
 });
 
 
@@ -104,7 +97,7 @@ $(function() {
 $(window).bind("load", function() {
     var timeout = setTimeout(function() {
         $("img.lazy4").trigger("sporty5")
-    }, 8000);
+    }, 9000);
 });
 
 $(function() {
@@ -116,10 +109,9 @@ $(function() {
 $(window).bind("load", function() {
     var timeout = setTimeout(function() {
         $("img.lazy5").trigger("sporty6")
-    }, 8500);
+    }, 9500);
 });
-//last page  
-//brunch
+
 $(function() {
     $("img.lazy6").lazyload({
         event : "sporty6"
@@ -129,25 +121,8 @@ $(function() {
 $(window).bind("load", function() {
     var timeout = setTimeout(function() {
         $("img.lazy6").trigger("sporty6")
-    }, 9000);
+    }, 9500);
 });
-
-
-$(function() {
-    $("img.lazy7").lazyload({
-        event : "sporty6"
-    });
-});
-
-$(window).bind("load", function() {
-    var timeout = setTimeout(function() {
-        $("img.lazy7").trigger("sporty7")
-    }, 5500);
-});
-
-
-
-
 
 
     </script>
@@ -273,12 +248,12 @@ $(window).bind("load", function() {
             </ul>
             <div class="tab-content" style="max-height:500px;overflow-y:auto;"> 
               <div class="tab-pane active" id="page1"><img src="images/menu/page1.jpg" alt="menu page" class="center-block " style="height:100%; width:100%;"></div>
-              <div class="tab-pane animated fadeInDown" id="page2"><div id="lazyload1"><img data-original="images/menu/page2.jpg" alt="menu page" class="center-block lazy1" style="height:100%; width:100%;"></div></div>
-              <div class="tab-pane animated fadeInDown" id="page3"><div id="lazyload2"><img data-original="images/menu/page3.jpg" alt="menu page" class="center-block lazy2" style="height:100%; width:100%;"></div></div>
-              <div class="tab-pane animated fadeInDown" id="page4"><div id="lazyload3"><img data-original="images/menu/page4.jpg" alt="menu page" class="center-block lazy3" style="height:100%; width:100%;"></div></div>
-              <div class="tab-pane animated fadeInDown" id="page5"><div id="lazyload4"><img data-original="images/menu/page5.jpg" alt="menu page" class="center-block lazy4" style="height:100%; width:100%;"></div></div>
-              <div class="tab-pane animated fadeInDown" id="page6"><div id="lazyload5"><img data-original="images/menu/page6.jpg" alt="menu page" class="center-block lazy5" style="height:100%; width:100%;"></div></div>
-               <div class="tab-pane animated fadeInDown" id="brunch"><div id="lazyload6"><img data-original="images/menu/brunch.jpg" alt="menu page"  class="lazy6"style="height:100%; width:100%;"></div></div>
+              <div class="tab-pane animated fadeInDown" id="page2"><div id="lazyload1"><img src="images/menu/page2.jpg" alt="menu page" class="center-block lazy1" style="height:100%; width:100%;"></div></div>
+              <div class="tab-pane animated fadeInDown" id="page3"><div id="lazyload2"><img src="images/menu/page3.jpg" alt="menu page" class="center-block lazy2" style="height:100%; width:100%;"></div></div>
+              <div class="tab-pane animated fadeInDown" id="page4"><div id="lazyload3"><img src="images/menu/page4.jpg" alt="menu page" class="center-block lazy3" style="height:100%; width:100%;"></div></div>
+              <div class="tab-pane animated fadeInDown" id="page5"><div id="lazyload4"><img src="images/menu/page5.jpg" alt="menu page" class="center-block lazy4" style="height:100%; width:100%;"></div></div>
+              <div class="tab-pane animated fadeInDown" id="page6"><div id="lazyload5"><img src="images/menu/page6.jpg" alt="menu page" class="center-block lazy5" style="height:100%; width:100%;"></div></div>
+               <div class="tab-pane animated fadeInDown" id="brunch"><div id="lazyload6"><img src="images/menu/brunch.jpg" alt="menu page"  class="lazy6"style="height:100%; width:100%;"></div></div>
               <div class="tab-pane" id="page7">
                 <ul class="list-group text-center">
                   <li class="list-group-item list-group-item-info "><em class="pull-left">
