@@ -64,7 +64,7 @@ $(function() {
 $(window).bind("load", function() {
     var timeout = setTimeout(function() {
         $("img.lazy1").trigger("sporty")
-    }, 5000);
+    }, 6000);
 });
 
 
@@ -78,7 +78,7 @@ $(function() {
 $(window).bind("load", function() {
     var timeout = setTimeout(function() {
         $("img.lazy2").trigger("sporty2")
-    }, 6500);
+    }, 7000);
 });
 
 
@@ -91,7 +91,7 @@ $(function() {
 $(window).bind("load", function() {
     var timeout = setTimeout(function() {
         $("img.lazy3").trigger("sporty4")
-    }, 7000);
+    }, 7500);
 });
 
 
@@ -104,7 +104,7 @@ $(function() {
 $(window).bind("load", function() {
     var timeout = setTimeout(function() {
         $("img.lazy4").trigger("sporty5")
-    }, 7500);
+    }, 8000);
 });
 
 $(function() {
@@ -116,7 +116,7 @@ $(function() {
 $(window).bind("load", function() {
     var timeout = setTimeout(function() {
         $("img.lazy5").trigger("sporty6")
-    }, 8000);
+    }, 8500);
 });
 //last page  
 //brunch
@@ -129,10 +129,21 @@ $(function() {
 $(window).bind("load", function() {
     var timeout = setTimeout(function() {
         $("img.lazy6").trigger("sporty6")
-    }, 4500);
+    }, 9000);
 });
 
 
+$(function() {
+    $("img.lazy7").lazyload({
+        event : "sporty6"
+    });
+});
+
+$(window).bind("load", function() {
+    var timeout = setTimeout(function() {
+        $("img.lazy7").trigger("sporty7")
+    }, 5500);
+});
 
 
 
