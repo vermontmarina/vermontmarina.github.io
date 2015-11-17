@@ -407,7 +407,7 @@ li.active {
 .button-trail {
 	    position: relative;
     left: 347px;
-
+    top: -35px;
 }
 .trail-modal-background {
   background-color: #CCFFDF;
