@@ -62,12 +62,143 @@ div.wrapper{
 	width:100%;
 }
 
-
+.helper-end {
+    position: absolute;
+    bottom: 0;
+    height: 160px;
+    width: 933px;
+    left: 2050px;
+    z-index: -3;
+    background-color: #1E0208;
+}
 img.local {
 	display:inline-block;
 
 }
 
+.turkey-img {
+    left: 86px;
+    position: relative;
+}
+.turkey-modal {
+	    top: -71px;
+
+}
+
+.turkey-text {
+font-family: 'Ribeye Marrow', cursive;
+    left: 254px;
+    position: relative;
+    font-size: 26px;
+    text-align: center;
+    top: 124px;
+    font-weight: bold;
+        color: rgb(12, 9, 6);
+}
+.modal-turkey {
+	    opacity: .96;
+}
+.turkey-container {
+	    position: absolute;
+    top: 0px;
+
+
+	-webkit-animation: fall 22s infinite linear;
+	  -moz-animation: fall 22s infinite linear;
+	  animation: fall 22s infinite linear;
+
+	}
+.turkey {
+position: absolute;
+    left: 236px;
+    top: 11px;
+}
+
+
+.turkey-cloud {
+    position: absolute;
+    width: 500px;
+    left: 162px;
+
+}
+
+
+
+
+  @-webkit-keyframes fall {
+
+  0% {
+    -webkit-transform: translateY(0);
+  }
+    20% {
+    transform: translateY(316px);
+  }
+  70% {
+    transform: translateY(316px);
+  }
+ 98% {
+    transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+  }
+}
+@-moz-keyframes fall {
+ 
+  0% {
+    -moz-transform: translateY(0);
+  }
+    20% {
+    transform: translateY(316px);
+  }
+  70% {
+    transform: translateY(316px);
+  }
+ 98% {
+    transform: translateY(0px);
+  }
+  100% {
+    -moz-transform: translateY(0px);
+  }
+}
+@-o-keyframes fall {
+
+  0% {
+    -o-transform: translateY(0);
+  }
+    20% {
+    transform: translateY(316px);
+  }
+  70% {
+    transform: translateY(316px);
+  }
+ 98% {
+    transform: translateY(0px);
+  }
+  
+  100% {
+    -o-transform: translateY(0px);
+  }
+}
+@keyframes fall {
+
+  0% {
+    transform: translateY(0);
+  }
+    20% {
+    transform: translateY(316px);
+  }
+  70% {
+    transform: translateY(316px);
+  }
+
+  98% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 
 img.local:hover {
 	border: 4px solid blue;
@@ -366,11 +497,11 @@ border: 4px solid greenyellow;
 
 
 div.right-buttons {
-	position: absolute;
-	top: 41em;
-	margin-left: 102em;
-	display: inline-flex;
-	width: 600px;
+    position: absolute;
+    top: 566px;
+    margin-left: 1600px;
+    display: inline-flex;
+    width: 600px;
 }
 
 .button-icon:hover {
@@ -741,7 +872,7 @@ div.dropup li a:hover{
 	padding:10px;
 	z-index: 30;
 	overflow-y: scroll;
-	opacity: .9;
+	opacity: .93;
 }
 .toggle-button{
 	position: absolute;
