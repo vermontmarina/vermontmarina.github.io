@@ -84,6 +84,9 @@ img.local {
 	    top: -71px;
 
 }
+.turkey-a {
+
+}
 
 .turkey-text {
 font-family: 'Ribeye Marrow', cursive;
@@ -91,9 +94,14 @@ font-family: 'Ribeye Marrow', cursive;
     position: relative;
     font-size: 26px;
     text-align: center;
-    top: 124px;
+    top: 131px;
     font-weight: bold;
         color: rgb(12, 9, 6);
+        line-height: 25px;
+}
+.turkey-text:hover {
+	color: rgb(96, 203, 200);
+transition:1s;
 }
 .modal-turkey {
 	    opacity: .96;
@@ -404,6 +412,11 @@ li.active {
 	margin-left: 5%;
 }
 
+.trail-walk {
+	    position: relative;
+    left: 632px;
+
+}
 .button-trail {
 	    position: relative;
     left: 347px;
