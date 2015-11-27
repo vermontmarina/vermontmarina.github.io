@@ -65,12 +65,12 @@ div.wrapper{
 
 .helper-end {
     position: absolute;
-    bottom: 0;
+    top: 645px;
     height: 160px;
-    width: 933px;
-    left: 2050px;
+    width: 1273px;
+    left: 1764px;
     z-index: -3;
-    background-color: #1E0208;
+    background-color: rgb(30, 2, 8);
 }
 img.local {
 	display:inline-block;
